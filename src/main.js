@@ -9,7 +9,9 @@ import {
   measureTrace,
   polygonArea,
   VERSION,
-} from "./engine.js";
+  GEOMETRY_VERSION,
+  canExportAnswer,
+} from "./engine-v1.1.js";
 const $ = (s) => document.querySelector(s);
 const el = (tag, attrs = {}, text = "") => {
   const e = document.createElement(tag);
@@ -53,7 +55,7 @@ document.querySelector("#app").innerHTML = `
 <aside><div id="dxf-controls"><form id="ask"><label for="question">What do you need to measure?</label><textarea id="question" rows="2" placeholder="What is the area of room 5.11?"></textarea><button class="primary" type="submit" id="calculate" disabled>Show the calculation</button></form><div id="suggestions" class="suggestions"></div><div id="answer" aria-live="polite"><h2>Your evidence appears here.</h2><p>The boundary, units and formula stay attached to every answer.</p></div><details id="rooms-panel"><summary>Inspect room boundaries <span id="room-count"></span></summary><div id="rooms"></div></details></div>
 <div id="trace-controls" hidden><h2>Measure a scan</h2><p>Set one known length, then trace the inside face of the room walls. Perspective-distorted photos need rectification first.</p><button id="practice">Open practice plan</button><p class="subtle">Practice plan uses authored dimensions, not benchmark data.</p><ol class="trace-steps"><li><strong>Set the scale</strong><p>Click both ends of a known dimension.</p><button id="calibrate">Pick reference endpoints</button><label for="reference-points">Reference endpoints, x,y per line</label><textarea id="reference-points" rows="2" placeholder="Or click two points on the drawing"></textarea><label for="known-length">Reference length, metres</label><input id="known-length" type="number" min="0.001" step="any" value="6"/><button id="save-scale">Apply scale</button><span id="scale-feedback" role="status"></span></li><li><strong>Trace the room</strong><p>Click each corner in order. The last edge closes automatically.</p><div class="inline-actions"><button id="trace-room">Start boundary</button><button id="undo">Undo point</button><button id="finish">Finish boundary</button></div><label for="trace-points">Boundary coordinates, x,y per line</label><textarea id="trace-points" rows="3" placeholder="Click on the drawing or enter image coordinates"></textarea><p class="subtle">Coordinate entry also supports keyboard-only measurement.</p></li></ol><div id="trace-answer" aria-live="polite"></div></div>
 <button id="export" class="export" disabled>Download calculation & boundary ↓</button><p class="scope">Computed geometry is evidence, not a guarantee. Check the drawing revision, room identity and scale before ordering.</p></aside></section>
-<section class="evidence" id="evidence"><h2>Measured, with limits in view.</h2><p>This is a partial solution for semantic DXF drawings. Scans use human tracing. The preview test is easier than the sponsor's unreleased drawings.</p><div id="eval-metrics">Evaluation results will load here.</div><div class="evidence-columns"><div><h3>What the automatic path reads</h3><p>Closed room polygons, room labels and physical units from DXF. Area comes from polygon coordinates. Printed room areas are cross-checks from the same source, not independent human validation.</p></div><div><h3>What still needs a person</h3><p>Missing labels, fragmented rooms, ambiguous symbols, piping and unknown scale. These cases often need review. Unfamiliar wording can also select the wrong operation; check the unit and highlighted rooms. Automatic raster segmentation, IFC parsing and calibrated confidence are not implemented.</p></div></div><a href="https://github.com/13shreyansh/stoa-measure/blob/main/eval/LEDGER.md" target="_blank" rel="noreferrer">Read the evaluation ledger and failure analysis ↗</a><p><a href="https://github.com/13shreyansh/stoa-measure/blob/main/eval/c16/README.md" target="_blank" rel="noreferrer">Frozen wording audit: 29 area requests returned counts; all failures published ↗</a></p></section>
+<section class="evidence" id="evidence"><h2>Measured, with limits in view.</h2><p>Current engine 1.1.0 repairs area/count intent and export binding. The benchmark below records historical engine 1.0.0; it is not a new unseen score for this repair. <a href="https://github.com/13shreyansh/stoa-measure/blob/main/eval/repair/README.md" target="_blank" rel="noreferrer">Read repair regressions and remaining wording failures ↗</a></p><p>This is a partial solution for semantic DXF drawings. Scans use human tracing. The preview test is easier than the sponsor's unreleased drawings.</p><div id="eval-metrics">Evaluation results will load here.</div><div class="evidence-columns"><div><h3>What the automatic path reads</h3><p>Closed room polygons, room labels and physical units from DXF. Area comes from polygon coordinates. Printed room areas are cross-checks from the same source, not independent human validation.</p></div><div><h3>What still needs a person</h3><p>Missing labels, fragmented rooms, ambiguous symbols, piping and unknown scale. These cases often need review. Unfamiliar wording can also select the wrong operation; check the unit and highlighted rooms. Automatic raster segmentation, IFC parsing and calibrated confidence are not implemented.</p></div></div><a href="https://github.com/13shreyansh/stoa-measure/blob/main/eval/LEDGER.md" target="_blank" rel="noreferrer">Read the evaluation ledger and failure analysis ↗</a><p><a href="https://github.com/13shreyansh/stoa-measure/blob/main/eval/c16/README.md" target="_blank" rel="noreferrer">Historical engine 1.0.0 audit: 29 area requests returned counts; immutable failures ↗</a></p></section>
 </main><footer><span>Junction 2026 · Make Blueprints Talk · Independent competition entry</span><span>Project code MIT · Drawing licenses stay with their authors</span></footer><div id="message" role="alert" hidden></div>`;
 function message(s) {
   $("#message").textContent = s;
@@ -397,7 +399,7 @@ function ask(q) {
       el("h2", {}, "No verified quantity yet."),
       el("p", {}, result.reason),
     );
-  $("#export").disabled = result.status !== "answer";
+  $("#export").disabled = !canExportAnswer(result, $("#question").value);
   render();
 }
 $("#ask").addEventListener("submit", (e) => {
@@ -657,17 +659,27 @@ $("#practice").onclick = async () => {
   $("#scale-feedback").textContent = "";
   setMode("trace");
 };
+$("#question").addEventListener("input", () => {
+  if (mode === "dxf") $("#export").disabled = true;
+});
 $("#export").onclick = () => {
+  if (mode === "dxf" && !canExportAnswer(result, $("#question").value))
+    return message(
+      "Calculate the current question first. Unresolved, stale or mismatched units cannot be exported.",
+    );
+  if (mode === "trace" && !trace.result)
+    return message("Finish a valid calibrated boundary before exporting.");
   const proof = {
     application: "Measure",
     version: VERSION,
+    geometryVersion: GEOMETRY_VERSION,
     input: $("#file-name").textContent,
     inputSha256: mode === "dxf" ? model.fileHash : trace.fileHash,
     method: mode,
     createdAt: new Date().toISOString(),
     ...(mode === "dxf"
       ? {
-          question: $("#question").value,
+          question: result.question,
           result,
           sourceUnits: model.unit,
           metresPerUnit: model.metres,

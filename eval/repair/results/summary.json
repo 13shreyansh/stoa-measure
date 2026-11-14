@@ -1,0 +1,59 @@
+{
+  "version": "1.1.0",
+  "geometryModuleSha256": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+  "engineSha256": "8ba7ff7982d78ffaa13a5e8806c7a43220fa5b779284371d3e365bd233be757a",
+  "seenPublishedFailures": {
+    "cases": 311,
+    "correct": 311,
+    "answered": 311,
+    "refused": 0,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "seenPublishedWrongUnitSlice": {
+    "cases": 29,
+    "correct": 29,
+    "answered": 29,
+    "refused": 0,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "seenAllAuthoredRephrases": {
+    "cases": 1341,
+    "correct": 960,
+    "answered": 960,
+    "refused": 381,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "historicalRegression": {
+    "dev": {
+      "cases": 1772,
+      "correct": 771,
+      "answered": 771,
+      "refused": 1001,
+      "incorrectAnswered": 0,
+      "wrongUnitAnswered": 0,
+      "lostPreviouslyCorrect": 25,
+      "note": "Previously exposed historical split; regression only, not new unseen data"
+    },
+    "heldout": {
+      "cases": 586,
+      "correct": 285,
+      "answered": 285,
+      "refused": 301,
+      "incorrectAnswered": 0,
+      "wrongUnitAnswered": 0,
+      "lostPreviouslyCorrect": 6,
+      "note": "Previously exposed historical split; regression only, not new unseen data"
+    }
+  },
+  "freshWording": {
+    "cases": 30,
+    "passed": 28,
+    "failed": 2,
+    "incorrectAnswers": 0,
+    "packetSha256": "c930ac5c6bcd0ebfcb47ebd84312349e85c9f6231593a586f761f6c3eb580fe0",
+    "scope": "Fresh model-authored analytic wording probes sealed before engine freeze, not human labels or an independent drawing/source benchmark"
+  }
+}

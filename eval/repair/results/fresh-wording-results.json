@@ -1,0 +1,678 @@
+[
+  {
+    "id": "unseen-01",
+    "question": "How many square metres does room 1.01 occupy?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 20,
+      "rooms": [
+        "1.01"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 20,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-02",
+    "question": "Give the floor area of room 1.02 in m².",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 6,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.02"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-03",
+    "question": "How many m² are there in the rooms labelled \"Bad\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 26,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 26,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-04",
+    "question": "For the exact label \"Wohnen\", report the combined area.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 24,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.03"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-05",
+    "question": "What is the area of the room labelled \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.04"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 6,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.04"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-06",
+    "question": "What is the total indoor floor area of apartment A?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 50,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-07",
+    "question": "Add up the area of all numbered indoor rooms.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 50,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-08",
+    "question": "Wie viele Quadratmeter hat Raum 1.03?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 24,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.03"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-09",
+    "question": "Quelle est la superficie de la pièce 1.02 en m² ?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 6,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.02"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-10",
+    "question": "Quanti metri quadrati misura la stanza 1.01?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 20,
+      "rooms": [
+        "1.01"
+      ]
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+      "exportable": false
+    },
+    "pass": false
+  },
+  {
+    "id": "unseen-11",
+    "question": "Count the rooms whose label is exactly \"Bad\".",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 2,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.01",
+        "1.02"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-12",
+    "question": "How many rooms carry the label \"Wohnen\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.03"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-13",
+    "question": "How many rooms are labelled \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.04"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.04"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-14",
+    "question": "How many apartments are shown in this model?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": []
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-15",
+    "question": "Count all numbered rooms indoors.",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 3,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+      "exportable": false
+    },
+    "pass": false
+  },
+  {
+    "id": "unseen-16",
+    "question": "Wie viele Räume heißen genau \"Bad\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 2,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.01",
+        "1.02"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-17",
+    "question": "Combien de pièces portent le nom exact \"Wohnen\" ?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.03"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-18",
+    "question": "How many rooms are labelled \"Bad\", and how much floor area do they have?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "This asks for both area and count. Ask for one quantity at a time.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-19",
+    "question": "Give both the area and the room count for \"Wohnen\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "This asks for both area and count. Ask for one quantity at a time.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-20",
+    "question": "What area do room 1.01 and room 1.03 cover together?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "reason": "Multiple numbered targets are ambiguous. Ask for one room or one labelled group.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-21",
+    "question": "Calculate the area of \"Bad\" and \"Balkon\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "Use one exact room label at a time.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-22",
+    "question": "How big is that room?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "Ask for an explicit area in m² or a room count. Unrecognised wording needs review.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-23",
+    "question": "How many are there?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-24",
+    "question": "Report room 1.01 in square feet.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "Requested units are unsupported. This engine returns m² for area or count for objects.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-25",
+    "question": "What is the area of \"Bad\" in hectares?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "Requested units are unsupported. This engine returns m² for area or count for objects.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-26",
+    "question": "How many actual door fixtures are in apartment A?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "reason": "This takeoff needs evidence this parser does not extract.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-27",
+    "question": "Count the window fixtures serving \"Wohnen\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "reason": "This takeoff needs evidence this parser does not extract.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-28",
+    "question": "At 35 euros per square metre, what would flooring room 1.03 cost?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "reason": "This takeoff needs evidence this parser does not extract.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-29",
+    "question": "How much larger is room 1.01 than room 1.02 as a percentage?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "reason": "Ask for an explicit area in m² or a room count. Unrecognised wording needs review.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "unseen-30",
+    "question": "What is the floor area of room 9.99?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "reason": "That room number is missing or ambiguous.",
+      "exportable": false
+    },
+    "pass": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "version": "1.1.0",
+  "frozenAtHelsinki": "2026-11-14 18:27 Helsinki",
+  "files": {
+    "src/engine.js": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+    "src/engine-v1.1.js": "8ba7ff7982d78ffaa13a5e8806c7a43220fa5b779284371d3e365bd233be757a",
+    "src/main.js": "cd6ee5d7e64a77a6543049fa5eb392afb6314cba48c00d30a75b9abd981c0e75",
+    "eval/repair/SPEC.md": "15548f380004f60abb7f245d77f18943ada3ca0ebccbaaf31bc07bfcef78e807",
+    "eval/repair/fixture.mjs": "bf5abf865ea4062dd72e39ac4f8d1bf3b6f784e07d942d07fb2f4accb38213ba",
+    "eval/repair/intent-regression.mjs": "44a1bfce7bb5cca2025742fe49d0999f1d1ee3f80749492ff445b792416224ce",
+    "eval/repair/ui-regression.mjs": "8a7dff80cf043caaaed247df78b0afd1a1833e1babb461fb6983839b54650618"
+  },
+  "sealedWordingPacketSha256": "c930ac5c6bcd0ebfcb47ebd84312349e85c9f6231593a586f761f6c3eb580fe0",
+  "provenance": "Fresh model agent /root/repair_unseen_wording, fork_turns=none, specification and analytic fixture facts only, not implementation or builder conversation. Returned count30 and hash only. Builder has not inspected packet content before this freeze. Not human labels or an independently sampled benchmark.",
+  "policy": "Reveal once after engine freeze; publish successes and failures without retuning this version."
+}

@@ -1,15 +1,17 @@
 # Measure
 
+Current engine **1.1.0** repairs the area/count routing and stale-export defect. [Repair evidence and remaining failures](eval/repair/README.md): all 311 published failure cases now match their numeric references, as **seen regressions**; a fresh model-authored analytic packet passed 28/30, with two refusals. No new unseen drawing benchmark is claimed.
+
 ## Judge quick path
 
 | Criterion | Actual proof | Scope and limit |
 |---|---|---|
-| Accuracy, 25% | [Frozen benchmark](eval/LEDGER.md#frozen-held-out-run), [numeric traces](eval/results/heldout-traces.json), [grouping/source audit](eval/c16/README.md#whole-drawing-and-source-grouping) | 277/586 correct, 277 answered, 309 review requests; 16 held-out sites in one semantic DXF source. No cross-source result. |
+| Accuracy, 25% | [Frozen benchmark](eval/LEDGER.md#frozen-held-out-run), [numeric traces](eval/results/heldout-traces.json), [grouping/source audit](eval/c16/README.md#whole-drawing-and-source-grouping) | Historical engine1.0.0: 277/586 correct, 277 answered, 309 review requests; 16 held-out sites in one semantic DXF source. No cross-source result. |
 | Visual reasoning, 25% | [Live room overlay](https://stoa-eta.vercel.app), [completed IAB workflow checks](docs/VERIFICATION.md#completed-iab-check), [demo 0:15–0:45](docs/DEMO.md) | Actual room overlays and exported coordinates checked in IAB; no benchmark-wide independently graded overlay score. Demo script timing is a plan, not a recorded video timestamp. |
 | Creativity, 25% | [Deterministic geometry implementation](src/engine.js), [calibrated tracing workflow](docs/VERIFICATION.md#completed-iab-check) | Inspectable computation, boundary record and human-assisted fallback. No measured novelty or benchmark-win claim. |
 | Low inference cost, 25% | [Scoped cost per correct answer](eval/c16/README.md#cost-per-correct-answer-scoped), [raw cost fields](eval/c16/results.json) | $0 model inference/API charges / 277 correct benchmark answers; hardware, hosting and human costs unmeasured. |
 
-**Known audit failure:** 29 authored area-total rephrases returned a room count instead of m². [All 311 changed rephrases and source limitations are published](eval/c16/README.md). The engine is frozen; neither this audit nor the original benchmark establishes general language robustness.
+**Historical engine1.0.0 audit failure:** 29 authored area-total rephrases returned a room count instead of m². Engine1.1.0 repairs these 29 seen cases; the original failures remain immutable. [All 311 changed rephrases and source limitations are published](eval/c16/README.md). The historical engine is frozen at audit-c16-v1; neither that audit nor the repair establishes general language robustness.
 
 [Open the live workbench](https://stoa-eta.vercel.app) · [Evaluation ledger](eval/LEDGER.md) · [2-minute demo](docs/DEMO.md)
 
@@ -28,7 +30,7 @@ Automatic input currently requires DXF `ROOM_OUTLINE`, `ROOM_TEXT` and physical 
 
 ## Results
 
-Frozen held-out test: **277 correct / 586 questions**, with **277 answered and 309 review requests**, across 16 drawings on held-out sites. The dumb baseline got 100/586. Area questions: 128/180 correct, with 128 answered. These are partial capability results on one semantic DXF source, not 100% drawing understanding. English and translated questions are paired. PDF questions use their matching DXF, which is an input advantage. No human labels or frontier-model inference comparison were collected. The printed-area check shares the source geometry.
+Historical engine1.0.0 frozen held-out test: **277 correct / 586 questions**, with **277 answered and 309 review requests**, across 16 drawings on held-out sites. The dumb baseline got 100/586. Area questions: 128/180 correct, with 128 answered. These are partial capability results on one semantic DXF source, not 100% drawing understanding. English and translated questions are paired. PDF questions use their matching DXF, which is an input advantage. No human labels or frontier-model inference comparison were collected. The printed-area check shares the source geometry.
 
 See the ledger for dev iterations, scope, error analysis, latency measurement and the exact engine hash. All 7,990 preview questions were not evaluated as supported tasks. Across dev and held-out, the parser answered 1,010 of 7,990 preview records; the other source formats remain outside the automated path.
 
@@ -51,6 +53,9 @@ The app also works with your own supported DXF or uploaded PDF/image. Without th
 ```sh
 # Verify hashes and reproduce the C-16 audit in scratch, retaining known failures.
 STOA_DATA=/absolute/path/junction-dataset-preview npm run audit:c16
+# Current repair tests and explicitly seen historical regressions.
+npm run test:repair
+STOA_DATA=/absolute/path/junction-dataset-preview npm run eval:repair
 STOA_DATA=/absolute/path/junction-dataset-preview npm run test:safety
 npm run test:ui
 ```

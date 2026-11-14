@@ -1,6 +1,6 @@
 {
   "name": "stoa-measure",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,9 @@
     "eval": "node eval/run.mjs",
     "test:ui": "node eval/ui.mjs",
     "test:safety": "node eval/safety.mjs",
-    "audit:c16": "node eval/c16/verify.mjs"
+    "audit:c16": "node eval/repair/check-history.mjs",
+    "test:repair": "node eval/repair/intent-regression.mjs && node eval/repair/ui-regression.mjs",
+    "eval:repair": "node eval/repair/evaluate.mjs"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.2.0",

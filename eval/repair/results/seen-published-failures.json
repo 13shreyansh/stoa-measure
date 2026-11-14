@@ -1,0 +1,6029 @@
+[
+  {
+    "recordIndex": 5726,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.13?",
+    "expected": 4.36,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 4.356687950087567,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5728,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.27?",
+    "expected": 11.03,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 11.029531803127151,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5766,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.19?",
+    "expected": 13.63,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 13.62905950640285,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5768,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.01?",
+    "expected": 15.25,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 15.251211816768873,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5780,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Camera da letto'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.05",
+      "3.07",
+      "3.09",
+      "3.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5782,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Soggiorno'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.03",
+      "3.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5784,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.01",
+      "3.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5786,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bagno'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.02",
+      "3.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5788,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcone'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.04",
+      "3.08",
+      "3.10",
+      "3.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5790,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Corridoio'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.06",
+      "3.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5792,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Vano scala'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5804,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.03?",
+    "expected": 16.59,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.585469337857198,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5806,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.05?",
+    "expected": 13.14,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 13.14300961343094,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5812,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Camera da letto' cover?",
+    "expected": 53.01,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 53.00923156737272,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.05",
+      "3.07",
+      "3.09",
+      "3.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5854,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Stanza'?",
+    "expected": 13,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 13,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.01",
+      "1.02",
+      "1.05",
+      "1.06",
+      "1.07",
+      "1.10",
+      "1.11",
+      "1.12",
+      "1.15",
+      "1.16",
+      "1.17",
+      "1.20",
+      "1.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5856,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Soggiorno/pranzo'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5858,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5860,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bagno'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.04",
+      "1.09",
+      "1.14",
+      "1.19",
+      "1.24",
+      "1.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5862,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Ripostiglio'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.28",
+      "1.29"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5864,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcone'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5866,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Corridoio'?",
+    "expected": 5,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 5,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.03",
+      "1.08",
+      "1.13",
+      "1.18",
+      "1.26"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5868,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Vano scala'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.30"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5882,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.04?",
+    "expected": 5.62,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 5.623283158481964,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5884,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.18?",
+    "expected": 14.98,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.983928532498062,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5890,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Stanza' cover?",
+    "expected": 176.98,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 176.97767156137192,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.01",
+      "1.02",
+      "1.05",
+      "1.06",
+      "1.07",
+      "1.10",
+      "1.11",
+      "1.12",
+      "1.15",
+      "1.16",
+      "1.17",
+      "1.20",
+      "1.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5896,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Schlafzimmer'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.05",
+      "3.06",
+      "3.11",
+      "3.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5898,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.03",
+      "3.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5900,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.02",
+      "3.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5902,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.01",
+      "3.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5904,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.04",
+      "3.10",
+      "3.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5906,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5918,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.09?",
+    "expected": 10.8,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 10.795836828915437,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5920,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.02?",
+    "expected": 4.21,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 4.20649985936106,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5926,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Schlafzimmer' cover?",
+    "expected": 87.62,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 87.61672970158142,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.05",
+      "3.06",
+      "3.11",
+      "3.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5954,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.32?",
+    "expected": 12.06,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.061291187005821,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.32"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5956,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.22?",
+    "expected": 22,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 22.002186549782756,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5984,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.71?",
+    "expected": 16.56,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.561469373936905,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.71"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 5986,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.40?",
+    "expected": 3.47,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.472601967520049,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.40"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6076,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.29"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6088,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.10?",
+    "expected": 16.78,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.776808222937234,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6090,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.09?",
+    "expected": 15.9,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 15.896732150005557,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6102,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 8,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 8,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.02",
+      "0.03",
+      "0.06",
+      "0.07",
+      "0.12",
+      "0.14",
+      "0.18",
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6104,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.05",
+      "0.08",
+      "0.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6106,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.04",
+      "0.09",
+      "0.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6108,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.01",
+      "0.11",
+      "0.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6110,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.10",
+      "0.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6124,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.09?",
+    "expected": 3.52,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.51764334370075,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6126,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.07?",
+    "expected": 14.61,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.614196007866958,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6132,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 135.22,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 135.21733846549188,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.02",
+      "0.03",
+      "0.06",
+      "0.07",
+      "0.12",
+      "0.14",
+      "0.18",
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6158,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.21?",
+    "expected": 16.31,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.314037945357093,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6160,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.08?",
+    "expected": 8.32,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.320108920523122,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6172,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Stanza'?",
+    "expected": 7,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 7,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.02",
+      "1.03",
+      "1.08",
+      "1.09",
+      "1.12",
+      "1.13",
+      "1.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6174,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Soggiorno/pranzo'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.04",
+      "1.16",
+      "1.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6176,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.01",
+      "1.14",
+      "1.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6178,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bagno'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.06",
+      "1.07",
+      "1.17",
+      "1.20"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6180,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcone'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.10",
+      "1.11",
+      "1.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6182,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Corridoio'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.05",
+      "1.15",
+      "1.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6184,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Vano scala'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.24"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6198,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.19?",
+    "expected": 3.67,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.67462982867281,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6200,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.22?",
+    "expected": 20.63,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 20.629127104275305,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6206,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Stanza' cover?",
+    "expected": 104.76,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 104.75644896965485,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.02",
+      "1.03",
+      "1.08",
+      "1.09",
+      "1.12",
+      "1.13",
+      "1.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6226,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.34"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6238,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.17?",
+    "expected": 14.63,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.626024370890692,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6240,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.28?",
+    "expected": 2.21,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 2.2093633894089897,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.28"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6324,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Schlafzimmer'?",
+    "expected": 5,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 5,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.02",
+      "4.09",
+      "4.12",
+      "4.24",
+      "4.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6330,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.04",
+      "4.11",
+      "4.23",
+      "4.28"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6332,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.05",
+      "4.07",
+      "4.16",
+      "4.20",
+      "4.22",
+      "4.26"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6334,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.01",
+      "4.10",
+      "4.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6336,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.06",
+      "4.08",
+      "4.14",
+      "4.15",
+      "4.19",
+      "4.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6338,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.30"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6350,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_1",
+    "question": "Give me the area of room 4.13 in m².",
+    "expected": 13.78,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 13.777331801873661,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6350,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_2",
+    "question": "Room 4.13 net floor area in m²?",
+    "expected": 13.78,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 13.777331801873661,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6352,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_1",
+    "question": "Give me the area of room 4.27 in m².",
+    "expected": 14.95,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.948609389249912,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6352,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_2",
+    "question": "Room 4.27 net floor area in m²?",
+    "expected": 14.95,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.948609389249912,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6358,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Schlafzimmer' cover?",
+    "expected": 66.13,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 66.12505011251837,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.02",
+      "4.09",
+      "4.12",
+      "4.24",
+      "4.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6384,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.02?",
+    "expected": 15.93,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 15.933668822950306,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6386,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.06?",
+    "expected": 3.49,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.4949676245202137,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6398,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6416,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.04?",
+    "expected": 26.73,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 26.733592097864097,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6418,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.06?",
+    "expected": 13.86,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 13.858979204201585,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6442,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.33?",
+    "expected": 11.13,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 11.128762413860088,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.33"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6444,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.06?",
+    "expected": 8.98,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.984310033814019,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6490,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.07",
+      "3.11",
+      "3.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6492,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour/repas'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6494,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6496,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.06",
+      "3.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6498,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Réduit'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6500,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.01",
+      "3.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6502,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.05",
+      "3.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6514,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.01?",
+    "expected": 18.7,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 18.70072761417043,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6516,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.03?",
+    "expected": 31.92,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 31.922033691793732,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6520,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 46.66,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 46.65666703728395,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.07",
+      "3.11",
+      "3.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6526,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 8,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 8,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.01",
+      "4.02",
+      "4.04",
+      "4.11",
+      "4.13",
+      "4.21",
+      "4.22",
+      "4.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6528,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour/repas'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.10",
+      "4.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6530,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.03",
+      "4.12",
+      "4.24"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6532,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.08",
+      "4.09",
+      "4.17",
+      "4.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6534,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Loggia'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.07",
+      "4.14",
+      "4.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6536,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 5,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 5,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.05",
+      "4.06",
+      "4.15",
+      "4.16",
+      "4.20"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6550,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.17?",
+    "expected": 3.4,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.3960311020121448,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6552,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.03?",
+    "expected": 8.78,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.77931993898746,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6558,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 109.13,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 109.12822496208841,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.01",
+      "4.02",
+      "4.04",
+      "4.11",
+      "4.13",
+      "4.21",
+      "4.22",
+      "4.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6564,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 7,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 7,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.01",
+      "2.02",
+      "2.05",
+      "2.13",
+      "2.15",
+      "2.16",
+      "2.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6566,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.08",
+      "2.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6568,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.07",
+      "2.10",
+      "2.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6570,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Reduit'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6572,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.03",
+      "2.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6574,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.04",
+      "2.14",
+      "2.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6576,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6588,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.10?",
+    "expected": 1.66,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 1.6555186055749473,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6590,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.15?",
+    "expected": 14.79,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.792705393366855,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6596,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 106.89,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 106.89343436437615,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.01",
+      "2.02",
+      "2.05",
+      "2.13",
+      "2.15",
+      "2.16",
+      "2.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6602,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Schlafzimmer'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.01",
+      "4.08",
+      "4.19",
+      "4.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6606,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.04",
+      "4.13",
+      "4.14",
+      "4.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6608,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.03",
+      "4.10",
+      "4.17",
+      "4.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6610,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Reduit'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.07",
+      "4.12",
+      "4.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6612,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.05",
+      "4.09",
+      "4.18",
+      "4.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6614,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.06",
+      "4.20",
+      "4.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6616,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.26"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6628,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.23?",
+    "expected": 4.32,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 4.322159718222315,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6630,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.21?",
+    "expected": 19.7,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 19.69671196876482,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6636,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Schlafzimmer' cover?",
+    "expected": 59.18,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 59.180212227278005,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.01",
+      "4.08",
+      "4.19",
+      "4.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6642,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.02",
+      "3.04",
+      "3.06",
+      "3.10",
+      "3.12",
+      "3.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6644,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.05",
+      "3.07",
+      "3.13",
+      "3.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6646,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.01",
+      "3.08",
+      "3.09",
+      "3.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6648,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.03",
+      "3.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6662,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.06?",
+    "expected": 12.93,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.929171477744244,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6664,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.14?",
+    "expected": 14.48,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.484576704566415,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6670,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 71.39,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 71.39326132264199,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.02",
+      "3.04",
+      "3.06",
+      "3.10",
+      "3.12",
+      "3.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6676,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Schlafzimmer'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.05",
+      "3.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6680,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6682,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6684,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6696,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.05?",
+    "expected": 18.63,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 18.628721912935276,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6698,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_1",
+    "question": "Give me the area of room 3.01 in m².",
+    "expected": 26.13,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 26.130291506486273,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6698,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_2",
+    "question": "Room 3.01 net floor area in m²?",
+    "expected": 26.13,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 26.130291506486273,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6702,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Schlafzimmer' cover?",
+    "expected": 35.21,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 35.205004114077866,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.05",
+      "3.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6742,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Stanza'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6744,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Soggiorno/pranzo'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6746,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6750,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcone'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6754,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Vano scala'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6768,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 5.04?",
+    "expected": 12.03,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.025738326984296,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6770,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 5.09?",
+    "expected": 17.55,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 17.54863085577431,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6774,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Stanza' cover?",
+    "expected": 17.55,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 17.54863085577431,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6780,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6782,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Chambre à coucher'?",
+    "expected": 7,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 7,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.03",
+      "2.05",
+      "2.09",
+      "2.11",
+      "2.16",
+      "2.18",
+      "2.26"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6784,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.06",
+      "2.12",
+      "2.19",
+      "2.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6786,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.02",
+      "2.07",
+      "2.14",
+      "2.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6788,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.01",
+      "2.08",
+      "2.15",
+      "2.20"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6790,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Loggia'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.13",
+      "2.24"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6792,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.04",
+      "2.10",
+      "2.17",
+      "2.23"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6806,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.18?",
+    "expected": 16.15,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.147456596998396,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6808,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.10?",
+    "expected": 6.78,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 6.782712729691227,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6814,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Chambre à coucher' cover?",
+    "expected": 92.28,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 92.2752770325251,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.03",
+      "2.05",
+      "2.09",
+      "2.11",
+      "2.16",
+      "2.18",
+      "2.26"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6820,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.06",
+      "1.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6822,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Schlafzimmer'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.07",
+      "1.09",
+      "1.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6826,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.03",
+      "1.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6828,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.04",
+      "1.12",
+      "1.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6830,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.01",
+      "1.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6832,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.05",
+      "1.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6834,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6846,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.04?",
+    "expected": 3.35,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.3461564903071537,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6848,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_1",
+    "question": "Give me the area of room 1.02 in m².",
+    "expected": 24.76,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 24.75603465136849,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6848,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_2",
+    "question": "Room 1.02 net floor area in m²?",
+    "expected": 24.76,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 24.75603465136849,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6854,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Schlafzimmer' cover?",
+    "expected": 32.29,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 32.292387341313784,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.07",
+      "1.09",
+      "1.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6860,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Stanza'?",
+    "expected": 7,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 7,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.01",
+      "2.05",
+      "2.06",
+      "2.10",
+      "2.12",
+      "2.13",
+      "2.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6862,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.02",
+      "2.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6864,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bagno'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.03",
+      "2.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6866,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcone'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.07",
+      "2.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6868,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Corridoio'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.04",
+      "2.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6880,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.02?",
+    "expected": 7.29,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 7.2879161848086325,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6882,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.11?",
+    "expected": 6.71,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 6.706799957737061,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6888,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Stanza' cover?",
+    "expected": 105.82,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 105.82308860679319,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.01",
+      "2.05",
+      "2.06",
+      "2.10",
+      "2.12",
+      "2.13",
+      "2.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6932,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Chambre à coucher'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6934,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour/repas'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6936,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6938,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6940,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6942,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6954,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.04?",
+    "expected": 4.96,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 4.957685535574911,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6956,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.01?",
+    "expected": 8.51,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.508061524536597,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6960,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Chambre à coucher' cover?",
+    "expected": 18.26,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 18.258499217548568,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6984,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.13?",
+    "expected": 16.08,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.07858014833058,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6986,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.25?",
+    "expected": 10.2,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 10.197812052342183,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.25"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 6998,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.04",
+      "4.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7002,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.01",
+      "4.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7004,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.05",
+      "4.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7006,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Reduit'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.11",
+      "4.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7008,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.03",
+      "4.09",
+      "4.12",
+      "4.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7020,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_1",
+    "question": "Give me the area of room 4.02 in m².",
+    "expected": 33.71,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 33.710341698915485,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7020,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_2",
+    "question": "Room 4.02 net floor area in m²?",
+    "expected": 33.71,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 33.710341698915485,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7022,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.12?",
+    "expected": 11,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 11.003915395959584,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7028,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 40.29,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 40.2936848232974,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.04",
+      "4.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7100,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.42?",
+    "expected": 16.12,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 16.124990108074005,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.42"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7102,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.31?",
+    "expected": 24.41,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 24.405260294386956,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.31"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7154,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.03",
+      "2.04",
+      "2.07",
+      "2.11",
+      "2.12",
+      "2.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7156,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour/repas'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.06",
+      "2.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7158,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.08",
+      "2.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7160,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.09",
+      "2.10",
+      "2.14",
+      "2.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7162,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.01",
+      "2.02",
+      "2.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7164,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.05",
+      "2.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7178,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.18?",
+    "expected": 12.48,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.48401822307779,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7180,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.11?",
+    "expected": 11.29,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 11.286220481777821,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7186,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 83.5,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 83.49759196243987,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.03",
+      "2.04",
+      "2.07",
+      "2.11",
+      "2.12",
+      "2.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7224,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7226,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7228,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7230,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7232,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Loggia'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7234,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "2.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7244,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.06?",
+    "expected": 8.54,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.540404567618253,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7246,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 2.02?",
+    "expected": 118.24,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 118.23936419544866,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7250,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 20.9,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 20.89891372234321,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "2.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7256,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7260,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7276,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_1",
+    "question": "Give me the area of room 3.07 in m².",
+    "expected": 17.8,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 17.803853865615338,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7276,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_2",
+    "question": "Room 3.07 net floor area in m²?",
+    "expected": 17.8,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 17.803853865615338,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7278,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.01?",
+    "expected": 12.67,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.674062060739281,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7282,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 12.67,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.674062060739281,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7348,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.04?",
+    "expected": 10.21,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 10.214957553921677,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7350,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.18?",
+    "expected": 9.74,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 9.743892866031894,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7362,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Schlafzimmer'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.01",
+      "0.02",
+      "0.09",
+      "0.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7368,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.07",
+      "0.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7370,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.05",
+      "0.06",
+      "0.12",
+      "0.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7372,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.08",
+      "0.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7374,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.03",
+      "0.11",
+      "0.17",
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7386,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.16?",
+    "expected": 9,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 9.00323766449689,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7388,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.13?",
+    "expected": 5.59,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 5.591049462712846,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7394,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Schlafzimmer' cover?",
+    "expected": 73.34,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 73.33929442411727,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.01",
+      "0.02",
+      "0.09",
+      "0.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7402,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Soggiorno/pranzo'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7414,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Vano scala'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7424,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.02?",
+    "expected": 12.52,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.52142059889776,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7426,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.09?",
+    "expected": 9.29,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 9.29246589179672,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7436,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.01",
+      "0.07",
+      "0.12",
+      "0.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7440,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.06",
+      "0.11",
+      "0.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7442,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.04",
+      "0.10",
+      "0.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7444,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.03",
+      "0.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7446,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.05",
+      "0.08",
+      "0.13"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7448,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7462,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.05?",
+    "expected": 12.04,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.041800220663045,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7464,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.14?",
+    "expected": 5.85,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 5.854675559039235,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7470,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 54.54,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 54.543909215098516,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.01",
+      "0.07",
+      "0.12",
+      "0.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7486,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Vano scala'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7498,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.10?",
+    "expected": 7.19,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 7.191854176131635,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7500,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.17?",
+    "expected": 11.43,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 11.426637430634724,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7534,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 5.04?",
+    "expected": 3.94,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 3.939431272947396,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7536,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 5.03?",
+    "expected": 37.24,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 37.240920494422596,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7548,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Chambre à coucher'?",
+    "expected": 5,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 5,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.05",
+      "0.06",
+      "0.08",
+      "0.11",
+      "0.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7550,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.02",
+      "0.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7552,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.03",
+      "0.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7554,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.01",
+      "0.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7556,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.07",
+      "0.09",
+      "0.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7558,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.04",
+      "0.13",
+      "0.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7572,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.03?",
+    "expected": 8.98,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.977465960616968,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7574,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.09?",
+    "expected": 2.92,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 2.9246596447977606,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7580,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Chambre à coucher' cover?",
+    "expected": 60.62,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 60.615456002063965,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.05",
+      "0.06",
+      "0.08",
+      "0.11",
+      "0.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7586,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.04",
+      "4.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7588,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7590,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7592,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "4.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7604,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.05?",
+    "expected": 34.02,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 34.01708877052345,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7606,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 4.04?",
+    "expected": 17.9,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 17.89582183976031,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7610,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 51.91,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 51.91291061028376,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "4.04",
+      "4.05"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7630,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.02?",
+    "expected": 12.24,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 12.242235285328574,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7632,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.41?",
+    "expected": 11.73,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 11.726421921169226,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.41"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7666,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.06?",
+    "expected": 10.96,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 10.963674878301205,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7668,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.15?",
+    "expected": 25.33,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 25.328094868142898,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.15"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7680,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.02",
+      "0.03",
+      "0.12",
+      "0.20",
+      "0.26",
+      "0.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7686,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.08",
+      "0.16",
+      "0.21"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7688,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 5,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 5,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.01",
+      "0.10",
+      "0.17",
+      "0.19",
+      "0.28"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7690,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Reduit'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7692,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.05",
+      "0.07",
+      "0.14",
+      "0.22",
+      "0.24",
+      "0.31"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7694,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.04",
+      "0.09",
+      "0.15",
+      "0.18",
+      "0.25",
+      "0.30"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7708,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.22?",
+    "expected": 8.2,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 8.20074439887852,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.22"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7710,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.08?",
+    "expected": 7.54,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 7.53750693025172,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7716,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 81.16,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 81.15876506319255,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.02",
+      "0.03",
+      "0.12",
+      "0.20",
+      "0.26",
+      "0.27"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7764,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 7,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 7,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.04",
+      "0.08",
+      "0.10",
+      "0.12",
+      "0.15",
+      "0.17",
+      "0.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7768,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.03",
+      "0.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7770,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 4,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 4,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.06",
+      "0.07",
+      "0.13",
+      "0.16"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7772,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.01",
+      "0.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7774,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.05",
+      "0.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7776,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7788,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.06?",
+    "expected": 1.98,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 1.980333354210717,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7790,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 0.19?",
+    "expected": 14.78,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.778750186782265,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.19"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7796,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 106.42,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 106.42194347145913,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "0.04",
+      "0.08",
+      "0.10",
+      "0.12",
+      "0.15",
+      "0.17",
+      "0.18"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7802,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Zimmer'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.02",
+      "3.04",
+      "3.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7806,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Küche'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.08"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7808,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bad'?",
+    "expected": 2,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.03",
+      "3.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7810,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Reduit'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7812,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balkon'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.10"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7814,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Korridor'?",
+    "expected": 3,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 3,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.05",
+      "3.13",
+      "3.14"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7816,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Treppenhaus'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "3.12"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7830,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.02?",
+    "expected": 14.34,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 14.54856352550997,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.02"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7832,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 3.01?",
+    "expected": 2.16,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 2.1642278895484974,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7836,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Zimmer' cover?",
+    "expected": 48.58,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 48.995619821907525,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "3.02",
+      "3.04",
+      "3.07"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7844,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Soggiorno/pranzo'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7846,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cucina'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.01"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7848,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bagno'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.03"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7852,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Corridoio'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "5.04"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7862,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 5.06?",
+    "expected": 32.01,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 32.00703110058932,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.06"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7864,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 5.11?",
+    "expected": 21.08,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 21.075702254795473,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "5.11"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7916,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Pièce'?",
+    "expected": 9,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 9,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.02",
+      "1.03",
+      "1.12",
+      "1.16",
+      "1.20",
+      "1.22",
+      "1.24",
+      "1.31",
+      "1.38"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7918,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Séjour/repas'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.04",
+      "1.10",
+      "1.18",
+      "1.28",
+      "1.35",
+      "1.42"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7920,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Cuisine'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.07",
+      "1.11",
+      "1.19",
+      "1.27",
+      "1.36",
+      "1.41"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7922,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Bain'?",
+    "expected": 9,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 9,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.06",
+      "1.08",
+      "1.14",
+      "1.15",
+      "1.23",
+      "1.25",
+      "1.26",
+      "1.33",
+      "1.39"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7924,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Balcon'?",
+    "expected": 5,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 5,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.01",
+      "1.09",
+      "1.29",
+      "1.34",
+      "1.40"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7926,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Loggia'?",
+    "expected": 1,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 1,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.17"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7928,
+    "family": "rephrase_label_count",
+    "variant": "template_3",
+    "question": "Total rooms named 'Couloir'?",
+    "expected": 6,
+    "expectedUnit": "count",
+    "status": "answer",
+    "value": 6,
+    "unit": "count",
+    "intent": "count",
+    "rooms": [
+      "1.05",
+      "1.13",
+      "1.21",
+      "1.30",
+      "1.32",
+      "1.37"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7944,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.09?",
+    "expected": 18.8,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 18.798230219678956,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.09"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7946,
+    "family": "rephrase_numbered_room_area",
+    "variant": "template_3",
+    "question": "How many square metres is room 1.41?",
+    "expected": 5.63,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 5.629923283100586,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.41"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  },
+  {
+    "recordIndex": 7952,
+    "family": "rephrase_label_area",
+    "variant": "template_3",
+    "question": "How many square metres do all rooms named 'Pièce' cover?",
+    "expected": 129.4,
+    "expectedUnit": "m²",
+    "status": "answer",
+    "value": 129.39533102596636,
+    "unit": "m²",
+    "intent": "area",
+    "rooms": [
+      "1.02",
+      "1.03",
+      "1.12",
+      "1.16",
+      "1.20",
+      "1.22",
+      "1.24",
+      "1.31",
+      "1.38"
+    ],
+    "reason": null,
+    "exportable": true,
+    "correct": true
+  }
+]

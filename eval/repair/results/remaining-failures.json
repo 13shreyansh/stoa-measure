@@ -1,0 +1,51 @@
+{
+  "seenPublished": [],
+  "fresh": [
+    {
+      "id": "unseen-10",
+      "question": "Quanti metri quadrati misura la stanza 1.01?",
+      "expected": {
+        "status": "answer",
+        "unit": "m²",
+        "value": 20,
+        "rooms": [
+          "1.01"
+        ]
+      },
+      "observed": {
+        "status": "review",
+        "value": null,
+        "unit": null,
+        "intent": "area",
+        "rooms": [],
+        "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+        "exportable": false
+      },
+      "pass": false
+    },
+    {
+      "id": "unseen-15",
+      "question": "Count all numbered rooms indoors.",
+      "expected": {
+        "status": "answer",
+        "unit": "count",
+        "value": 3,
+        "rooms": [
+          "1.01",
+          "1.02",
+          "1.03"
+        ]
+      },
+      "observed": {
+        "status": "review",
+        "value": null,
+        "unit": null,
+        "intent": "count",
+        "rooms": [],
+        "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+        "exportable": false
+      },
+      "pass": false
+    }
+  ]
+}

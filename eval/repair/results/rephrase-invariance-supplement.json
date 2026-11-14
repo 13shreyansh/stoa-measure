@@ -1,0 +1,59 @@
+{
+  "scope": "Post-review reporting correction from existing1.1 records, no engine run/tuning. Entity IDs were not recorded, so entity identity invariance is not established.",
+  "comparisons": 1341,
+  "unchanged": 1338,
+  "changed": 3,
+  "changes": [
+    {
+      "recordIndex": 7100,
+      "family": "rephrase_numbered_room_area",
+      "question": "Give me the area of room 2.42 in m\u00b2.",
+      "expected": 16.12,
+      "expectedUnit": "m\u00b2",
+      "status": "answer",
+      "value": 16.124990108074005,
+      "unit": "m\u00b2",
+      "intent": "area",
+      "rooms": [
+        "2.42"
+      ],
+      "reason": null,
+      "exportable": true,
+      "correct": true
+    },
+    {
+      "recordIndex": 7100,
+      "family": "rephrase_numbered_room_area",
+      "question": "Room 2.42 net floor area in m\u00b2?",
+      "expected": 16.12,
+      "expectedUnit": "m\u00b2",
+      "status": "answer",
+      "value": 16.124990108074005,
+      "unit": "m\u00b2",
+      "intent": "area",
+      "rooms": [
+        "2.42"
+      ],
+      "reason": null,
+      "exportable": true,
+      "correct": true
+    },
+    {
+      "recordIndex": 7100,
+      "family": "rephrase_numbered_room_area",
+      "question": "How many square metres is room 2.42?",
+      "expected": 16.12,
+      "expectedUnit": "m\u00b2",
+      "status": "answer",
+      "value": 16.124990108074005,
+      "unit": "m\u00b2",
+      "intent": "area",
+      "rooms": [
+        "2.42"
+      ],
+      "reason": null,
+      "exportable": true,
+      "correct": true
+    }
+  ]
+}

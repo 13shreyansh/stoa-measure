@@ -1,0 +1,127 @@
+{
+  "engineVersion": "1.1.0",
+  "scope": "Authored analytic intent/unit regressions; seen during repair development",
+  "passed": 19,
+  "rows": [
+    {
+      "question": "How many square metres do all rooms named 'Bad' cover?",
+      "status": "answer",
+      "unit": "m²",
+      "value": 26,
+      "pass": true
+    },
+    {
+      "question": "How many rooms are labelled 'Bad'?",
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "pass": true
+    },
+    {
+      "question": "How many square meters is room 1.01?",
+      "status": "answer",
+      "unit": "m²",
+      "value": 20,
+      "pass": true
+    },
+    {
+      "question": "Total rooms named 'Bad'?",
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "pass": true
+    },
+    {
+      "question": "What is the net floor area of room 1.03 ('Wohnen') in m²?",
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "pass": true
+    },
+    {
+      "question": "Area of rooms labelled 'Wohnen'?",
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "pass": true
+    },
+    {
+      "question": "What is the total indoor area excluding balconies, loggias, terraces and other outdoor spaces, shafts and voids?",
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "pass": true
+    },
+    {
+      "question": "What is the area of apartment A?",
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "pass": true
+    },
+    {
+      "question": "Give the area and count of rooms labelled 'Bad'.",
+      "status": "review",
+      "reason": "This asks for both area and count. Ask for one quantity at a time.",
+      "pass": true
+    },
+    {
+      "question": "Area of room 1.01 and 1.02?",
+      "status": "review",
+      "reason": "Multiple numbered targets are ambiguous. Ask for one room or one labelled group.",
+      "pass": true
+    },
+    {
+      "question": "Area of room 1.01 or room 1.03?",
+      "status": "review",
+      "reason": "Multiple numbered targets are ambiguous. Ask for one room or one labelled group.",
+      "pass": true
+    },
+    {
+      "question": "Do not calculate the area of room 1.01.",
+      "status": "review",
+      "reason": "Negation or arithmetic makes the requested quantity unclear. Ask for one explicit area or count.",
+      "pass": true
+    },
+    {
+      "question": "Area of room 1.01 minus room 1.02?",
+      "status": "review",
+      "reason": "Negation or arithmetic makes the requested quantity unclear. Ask for one explicit area or count.",
+      "pass": true
+    },
+    {
+      "question": "Area of room 1.01 without the bathroom?",
+      "status": "review",
+      "reason": "This exclusion cannot be verified. Ask for one explicit target without exclusions.",
+      "pass": true
+    },
+    {
+      "question": "What is the total indoor area excluding kitchens?",
+      "status": "review",
+      "reason": "This exclusion cannot be verified. Ask for one explicit target without exclusions.",
+      "pass": true
+    },
+    {
+      "question": "What is the area of room 1.01 in square feet?",
+      "status": "review",
+      "reason": "Requested units are unsupported. This engine returns m² for area or count for objects.",
+      "pass": true
+    },
+    {
+      "question": "How many doors, including closet doors, are shown?",
+      "status": "review",
+      "reason": "Door and window counting conventions are unresolved. Exact fixture counts need review.",
+      "pass": true
+    },
+    {
+      "question": "What is the area of room 1.01 labelled \"Wohnen\"?",
+      "status": "review",
+      "reason": "The supplied label does not match that numbered room.",
+      "pass": true
+    },
+    {
+      "test": "Export rejects wrong units, intent, non-finite value and stale question",
+      "pass": true
+    }
+  ]
+}
