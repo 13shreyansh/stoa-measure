@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://stoa-eta.vercel.app",
+    "status": 200
+  },
+  {
+    "url": "https://stoa-eta.vercel.app/assets/index-f2yn7mfZ.js",
+    "status": 200,
+    "sha256": "f554147767dd297d30f179a8ee3a0a91f8f57c95b696605015c2622717214a49",
+    "matchesLocalBuild": true
+  },
+  {
+    "url": "https://stoa-eta.vercel.app/assets/index-BG3rapj-.css",
+    "status": 200,
+    "sha256": "de6399da265be810635dfb5c8099f3cacb05ebe653f44da7d3a7dbbfb3d0754c",
+    "matchesLocalBuild": true
+  },
+  {
+    "url": "https://stoa-eta.vercel.app/evaluation.json",
+    "status": 200,
+    "unchangedFrozenEngine": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/13shreyansh/stoa-measure/35f75a9/eval/c16/README.md",
+    "status": 200,
+    "auditPublished": true
+  }
+]

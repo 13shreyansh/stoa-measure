@@ -49,13 +49,13 @@ The app also works with your own supported DXF or uploaded PDF/image. Without th
 ## Reproduce evaluation
 
 ```sh
-STOA_DATA=/absolute/path/junction-dataset-preview node eval/run.mjs dev
-STOA_DATA=/absolute/path/junction-dataset-preview node eval/run.mjs heldout
-STOA_DATA=/absolute/path/junction-dataset-preview node eval/safety.mjs
-npm run test:ui
-# Reproduce the C-16 frozen audit in scratch space, retaining known failures.
+# Verify hashes and reproduce the C-16 audit in scratch, retaining known failures.
 STOA_DATA=/absolute/path/junction-dataset-preview npm run audit:c16
+STOA_DATA=/absolute/path/junction-dataset-preview npm run test:safety
+npm run test:ui
 ```
+
+The frozen publication is retained under Git tag `audit-c16-v1`. The original benchmark runner remains available as `node eval/run.mjs dev` or `heldout`, but it writes output files and new timing values. Use a separate checkout for a new benchmark run rather than overwrite the frozen evidence. The audit command above uses scratch space and preserves the publication.
 
 The evaluator groups every format and language of a drawing by site before splitting. `eval/results` contains numeric traces and summaries; local `work/` contains the licensed question text for inspection. The runtime has no access to reference answers. A split manifest and engine SHA-256 make runs inspectable. Do not tune on the held-out set.
 

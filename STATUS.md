@@ -1,6 +1,6 @@
 # Stoa status
 
-Updated 2026-11-14 17:37 Helsinki. Owner Codex, chat 01a1daa1-c07f-7eb2-afd5-6127a3fbc796.
+Updated 2026-11-14 18:12 Helsinki. Owner Codex, chat 01a1daa1-c07f-7eb2-afd5-6127a3fbc796.
 
 Build delivered: https://stoa-eta.vercel.app . Public MIT source: https://github.com/13shreyansh/stoa-measure . Verified source/docs checkpoint 8ac69dce5dbf5cc19259bcf05a313c59369d4dc7. Application deployment commit 965653f.
 
@@ -18,4 +18,4 @@ C-07 remains DONE. The C-16 follow-up adds a criterion/evidence index, grouped/s
 
 Observed: 10,632 filename/row/entity-order outcomes unchanged. Authored rephrases changed 311/1,341 outcomes, including 29 area questions answered as counts. These failures are published, not fixed by retuning. Only Swiss Dwellings was question-scored; cross-source generalization is unestablished. Inference/API charges per correct held-out answer are $0/277; hardware, hosting, human and total costs remain unknown.
 
-Current C-16 evidence is in eval/c16/. A context-isolated model reviewer reproduced it byte-for-byte and supported scoped claims, while flagging published P1/P2 routing defects and refusing unsupported generalization/confidence/visual-accuracy/total-cost claims. Publication and copy-only deployment are being completed. No final submission or Discord action is authorized by this task.
+Current C-16 evidence is in eval/c16/. A context-isolated model reviewer reproduced it byte-for-byte and supported scoped claims, while flagging published P1/P2 routing defects and refusing unsupported generalization/confidence/visual-accuracy/total-cost claims. C-16 Stoa follow-up is DONE: evidence published, fresh model review recorded, and the copy-only application update deployed from 35f75a9. Final publication retained under audit-c16-v1. Known P1/P2 routing failures remain disclosed and unfixed; no engine retuning occurred. No final submission or Discord action is authorized by this task.
