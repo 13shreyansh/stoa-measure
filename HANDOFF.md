@@ -19,7 +19,7 @@ Dev: 733/1772 correct, 733 answered. Held-out: 277/586 correct, 277 answered and
 
 ## Required follow-through
 
-Finish source push and redeploy after documentation and dependency fix. Inspect live HTTP assets. Incorporate Chief IAB findings. Record final deploy commit and verification in docs/VERIFICATION.md and this file. Video recording remains Shreyansh's task; scripts are in docs/DEMO.md and docs/PITCH.md. Do not submit any competition form without explicit approval.
+Source pushed and final application deployed at commit 965653f. Live HTTP assets and PDF worker hashes verified, PDF.js updated, audit clean. See docs/VERIFICATION.md. Incorporate Chief IAB findings when bridge/stoa-iab-results.md appears. Video recording remains Shreyansh's task; scripts are in docs/DEMO.md and docs/PITCH.md. Do not submit any competition form without explicit approval.
 
 ## Browser and account rules
 

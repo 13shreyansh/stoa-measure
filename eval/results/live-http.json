@@ -1,0 +1,41 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 576
+  },
+  {
+    "path": "/assets/index-CVTv6vy8.js",
+    "status": 200,
+    "bytes": 33672,
+    "matchesLocalBuild": true
+  },
+  {
+    "path": "/assets/index-BG3rapj-.css",
+    "status": 200,
+    "bytes": 13519,
+    "matchesLocalBuild": true
+  },
+  {
+    "path": "/samples/example.dxf",
+    "status": 200,
+    "bytes": 168987
+  },
+  {
+    "path": "/evaluation.json",
+    "status": 200,
+    "bytes": 3544
+  },
+  {
+    "path": "/assets/pdf-DMRcuM1e.js",
+    "status": 200,
+    "bytes": 434003,
+    "matchesLocalBuild": true
+  },
+  {
+    "path": "/assets/pdf.worker.min-CHFwMXne.mjs",
+    "status": 200,
+    "bytes": 1262398,
+    "matchesLocalBuild": true
+  }
+]
