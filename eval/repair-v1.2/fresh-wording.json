@@ -1,0 +1,270 @@
+[
+  {
+    "id": "fresh-01",
+    "question": "What is the floor area of room 1.01?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 20,
+      "rooms": [
+        "1.01"
+      ]
+    }
+  },
+  {
+    "id": "fresh-02",
+    "question": "How many rooms have the exact label \"Bad\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "fresh-03",
+    "question": "Give the area for rooms labelled \"Bad\".",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 26,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "fresh-04",
+    "question": "Tell me the area of room 1.02 in m².",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "fresh-05",
+    "question": "How many apartments are in this plan?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-06",
+    "question": "What is the total indoor floor area?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "fresh-07",
+    "question": "Give apartment A indoor area in square metres.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "fresh-08",
+    "question": "What floor area belongs to \"Wohnen\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "fresh-09",
+    "question": "Count the rooms labelled \"Wohnen\".",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "fresh-10",
+    "question": "What is the area of \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.04"
+      ]
+    }
+  },
+  {
+    "id": "fresh-11",
+    "question": "Show the area of room 1.03.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "fresh-12",
+    "question": "How many rooms are labelled \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.04"
+      ]
+    }
+  },
+  {
+    "id": "fresh-13",
+    "question": "What is the area and the room count for \"Bad\"?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-14",
+    "question": "Give the areas of room 1.01 and room 1.03.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-15",
+    "question": "How much area would room 1.02 have if it were doubled?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-16",
+    "question": "Subtract the area of \"Bad\" from the apartment area.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-17",
+    "question": "Report the area of room 1.01 in square feet.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-18",
+    "question": "What is the indoor area in hectares?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-19",
+    "question": "What is apartment A area excluding any storage spaces?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-20",
+    "question": "Give the usable area of \"Bad\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-21",
+    "question": "What is the rentable floor area of room 1.03?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-22",
+    "question": "How many doors are there in apartment A?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-23",
+    "question": "Count the windows in room 1.01.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "fresh-24",
+    "question": "Export the area of room 1.01 as a room count.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  }
+]

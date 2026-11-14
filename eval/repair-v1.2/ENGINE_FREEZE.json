@@ -1,0 +1,16 @@
+{
+  "version": "1.2.0",
+  "frozenAtHelsinki": "2026-11-14 18:35 Helsinki",
+  "files": {
+    "src/engine.js": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+    "src/engine-v1.2.js": "2ae3250eebfa6a438f68aaee97bc3136d452b1d45047b798134620404adbed84",
+    "src/main.js": "9ca71a78e4d6f11941912ec36aceaa3c0b0e35e34bf86652f422ffb651d68bed",
+    "eval/repair-v1.2/SPEC.md": "d1a67d9c40195426380d0be4f0bf8bf61cec40e82f7abf3ff6176650534f1732",
+    "eval/repair/fixture.mjs": "bf5abf865ea4062dd72e39ac4f8d1bf3b6f784e07d942d07fb2f4accb38213ba",
+    "eval/repair-v1.2/intent-regression.mjs": "ac62869370760d62cba4ea5a2e6eead7c1f20ca8ceba031b5f32dcc6f1dfb690",
+    "eval/repair-v1.2/ui-regression.mjs": "4d216aa6c3e8c1e153528259200b2a25e279d83ac2f0ba9c1205dc57a054ae43"
+  },
+  "sealedWordingPacketSha256": "b0d325f53f384f455ff964eabbeca6beec2f1d54218021c77577d21db29c5f5a",
+  "provenance": "Fresh model agent /root/repair_v12_unseen_wording, fork_turns=none, specification and analytic fixture only; no implementation or old prompts. Returned count24 and hash only. Builder has not read packet content before this freeze.",
+  "scope": "Version1.1 is rejected and preserved. All1.1 diagnostics and its first packet are now seen regression inputs for1.2. The second sealed packet is revealed once; not human labels or an unseen real-drawing benchmark."
+}

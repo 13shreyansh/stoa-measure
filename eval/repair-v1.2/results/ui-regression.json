@@ -1,0 +1,38 @@
+{
+  "scope": "DOM regression on authored fixture; not browser or unseen language",
+  "passed": 8,
+  "checks": [
+    {
+      "name": "Area wording renders 26 m² and enables export",
+      "pass": true
+    },
+    {
+      "name": "Area JSON binds original question, operation, m² and engine1.2.0",
+      "pass": true
+    },
+    {
+      "name": "Count JSON contains count2, not area26",
+      "pass": true
+    },
+    {
+      "name": "Editing question disables stale export",
+      "pass": true
+    },
+    {
+      "name": "Returning from tracing keeps stale export disabled",
+      "pass": true
+    },
+    {
+      "name": "Direct stale-export handler cannot create a new download",
+      "pass": true
+    },
+    {
+      "name": "Mixed intent refuses and disables export",
+      "pass": true
+    },
+    {
+      "name": "Wohnen is not mistaken for ohne exclusion",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "fresh-01",
+    "question": "What is the floor area of room 1.01?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 20,
+      "rooms": [
+        "1.01"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 20,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01"
+      ],
+      "entityIds": [
+        "1"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-02",
+    "question": "How many rooms have the exact label \"Bad\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+      "exportable": false
+    },
+    "pass": false
+  },
+  {
+    "id": "fresh-03",
+    "question": "Give the area for rooms labelled \"Bad\".",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 26,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 26,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02"
+      ],
+      "entityIds": [
+        "1",
+        "5"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-04",
+    "question": "Tell me the area of room 1.02 in m².",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 6,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.02"
+      ],
+      "entityIds": [
+        "5"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-05",
+    "question": "How many apartments are in this plan?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": []
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [],
+      "entityIds": [
+        "11"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-06",
+    "question": "What is the total indoor floor area?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 50,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ],
+      "entityIds": [
+        "1",
+        "5",
+        "9"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-07",
+    "question": "Give apartment A indoor area in square metres.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 50,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ],
+      "entityIds": [
+        "1",
+        "5",
+        "9"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-08",
+    "question": "What floor area belongs to \"Wohnen\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+      "exportable": false
+    },
+    "pass": false
+  },
+  {
+    "id": "fresh-09",
+    "question": "Count the rooms labelled \"Wohnen\".",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.03"
+      ],
+      "entityIds": [
+        "9"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-10",
+    "question": "What is the area of \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.04"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 6,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.04"
+      ],
+      "entityIds": [
+        "d"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-11",
+    "question": "Show the area of room 1.03.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Arithmetic, scaling or an extra numeric constraint is unsupported. Ask for one unmodified quantity.",
+      "exportable": false
+    },
+    "pass": false
+  },
+  {
+    "id": "fresh-12",
+    "question": "How many rooms are labelled \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.04"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.04"
+      ],
+      "entityIds": [
+        "d"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-13",
+    "question": "What is the area and the room count for \"Bad\"?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "This asks for both area and count. Ask for one quantity at a time.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-14",
+    "question": "Give the areas of room 1.01 and room 1.03.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Ask for an explicit area in m² or a room count. Unrecognised wording needs review.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-15",
+    "question": "How much area would room 1.02 have if it were doubled?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-16",
+    "question": "Subtract the area of \"Bad\" from the apartment area.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Negation or arithmetic makes the requested quantity unclear. Ask for one explicit area or count.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-17",
+    "question": "Report the area of room 1.01 in square feet.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Requested units are unsupported. This engine returns m² for area or count for objects.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-18",
+    "question": "What is the indoor area in hectares?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Requested units are unsupported. This engine returns m² for area or count for objects.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-19",
+    "question": "What is apartment A area excluding any storage spaces?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "This exclusion cannot be verified. Ask for one explicit target without exclusions.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-20",
+    "question": "Give the usable area of \"Bad\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-21",
+    "question": "What is the rentable floor area of room 1.03?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-22",
+    "question": "How many doors are there in apartment A?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Door and window counting conventions are unresolved. Exact fixture counts need review.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-23",
+    "question": "Count the windows in room 1.01.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "count",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Door and window counting conventions are unresolved. Exact fixture counts need review.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "fresh-24",
+    "question": "Export the area of room 1.01 as a room count.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "This asks for both area and count. Ask for one quantity at a time.",
+      "exportable": false
+    },
+    "pass": true
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "version": "1.2.0",
+  "seenFirstPacket": {
+    "cases": 30,
+    "passed": 18,
+    "failed": 12,
+    "note": "First1.1 wording packet is now seen regression data"
+  },
+  "seenRephraseInvariance": {
+    "comparisons": 1341,
+    "unchanged": 1338,
+    "changed": 3,
+    "fields": "status, unit, value, room IDs and entity IDs"
+  },
+  "geometryModuleSha256": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+  "engineSha256": "2ae3250eebfa6a438f68aaee97bc3136d452b1d45047b798134620404adbed84",
+  "seenPublishedFailures": {
+    "cases": 311,
+    "correct": 311,
+    "answered": 311,
+    "refused": 0,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "seenPublishedWrongUnitSlice": {
+    "cases": 29,
+    "correct": 29,
+    "answered": 29,
+    "refused": 0,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "seenAllAuthoredRephrases": {
+    "cases": 1341,
+    "correct": 960,
+    "answered": 960,
+    "refused": 381,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "historicalRegression": {
+    "dev": {
+      "cases": 1772,
+      "correct": 398,
+      "answered": 398,
+      "refused": 1374,
+      "incorrectAnswered": 0,
+      "wrongUnitAnswered": 0,
+      "lostPreviouslyCorrect": 356,
+      "note": "Previously exposed historical split; regression only, not new unseen data"
+    },
+    "heldout": {
+      "cases": 586,
+      "correct": 146,
+      "answered": 146,
+      "refused": 440,
+      "incorrectAnswered": 0,
+      "wrongUnitAnswered": 0,
+      "lostPreviouslyCorrect": 134,
+      "note": "Previously exposed historical split; regression only, not new unseen data"
+    }
+  },
+  "freshWording": {
+    "cases": 24,
+    "passed": 21,
+    "failed": 3,
+    "incorrectAnswers": 0,
+    "packetSha256": "b0d325f53f384f455ff964eabbeca6beec2f1d54218021c77577d21db29c5f5a",
+    "scope": "Fresh model-authored analytic wording probes sealed before engine freeze, not human labels or an independent drawing/source benchmark"
+  }
+}

@@ -1,0 +1,7 @@
+# Engine1.2.0 repair protocol
+
+Engine1.1.0 is a rejected intermediate candidate, preserved under repair-v1.1-rejected with its original source, 28/30 sealed-packet result and P1 review. Engine1.2.0 keeps the same original geometry, addresses those now-known diagnostic probes and validates the entire controlled request instead of ignoring unfamiliar content. Explicit arithmetic, unsupported units, mixed targets/operations and unhandled words refuse. Returning from tracing must not re-enable stale export.
+
+All old audit results and failures remain immutable. Replays of original dev/held-out data, C-16 variants, reviewer probes and the first packet are SEEN regressions. A second fresh model agent receives only intended behavior and fixture facts, without source or old prompts. Its sealed24-case packet is not read until engine/UI/development regressions freeze. Publish its one reveal, refusals and wrong answers without retuning this version afterward. These are model-authored analytic probes, not human labels or unseen real drawings.
+
+Report numeric correctness separately from rephrase invariance. Invariance includes status, units, value, room IDs AND entity IDs against the corresponding repaired original request. Original and intermediate evidence stay readable; any reporting supplement must be separately named. No source-generalization, calibration, independent overlay or total-cost claim follows from these checks.
