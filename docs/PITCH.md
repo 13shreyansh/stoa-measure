@@ -20,7 +20,7 @@ If a judge asks for all bathrooms, ask using the exact label on the drawing. A m
 
 ## 2:30–3:20 · What the evaluation means
 
-49 dev drawings, 16 held-out drawings, grouped by site. Same drawing formats and translated questions stay together. Frozen engine got 277/586 held-out questions correct, answering 277 and refusing 309. For areas, 128/180 passed. The dumb baseline got 100/586 across all questions. A bounding-box ablation got 195/586; polygon geometry got 277/586 with the same router.
+49 dev drawings, 16 held-out drawings, grouped by site. Same drawing formats and translated questions stay together. Historical frozen engine1.0 got277/586 held-out questions correct, answering 277 and refusing 309. For areas, 128/180 passed. The dumb baseline got 100/586 across all questions. A bounding-box ablation got 195/586; polygon geometry got 277/586 with the same router.
 
 Important limits: one semantic source; PDF questions paired with their DXFs; translated questions correlated; no independent human room measurements; no frontier-model comparison; no measured overlay correctness; no calibrated statistical confidence; no sponsor unreleased drawings tested.
 
@@ -39,4 +39,4 @@ Next work: automatic vector PDF extraction, tiled scan OCR and boundary proposal
 Repository: https://github.com/13shreyansh/stoa-measure
 Live: https://stoa-eta.vercel.app
 
-No final submission or public video has been uploaded by this build chat.
+Current engine1.3.1 repairs intent/export defects; current replay numbers are seen regressions. See eval/repair-v1.3.1/README.md for coverage losses and fresh model-authored packet results. No final submission or public video has been uploaded by this build chat.

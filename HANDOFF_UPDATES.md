@@ -21,3 +21,7 @@ A separate authorized repair addresses area/count intent, complete-word exclusio
 ## Final engine1.3.0 candidate
 
 Version1.1 was rejected for additional P1 request-modifier errors. Version1.2 was rejected for coverage/punctuation regressions. Their source, packets and results are preserved under separate rejected tags. Current source uses engine-v1.3.js with whole-request checks and stale-mode export guarding. Read eval/repair-v1.3/README.md:311/311 seen failures repaired,29 analytic/8 DOM checks, final sealed packet21/24 with3 safe refusals, historical replay coverage losses disclosed. No old held-out replay is called unseen. Geometry and original C-16 artifacts remain unchanged. Focused Chief IAB verification follows deployment.
+
+## Final patch1.3.1
+
+An independent review caught1.3's indoor-total/category scope override. Patch1.3.1 explicitly refuses an indoor-total selector combined with a label/category/room/apartment subset; ordinary bathroom area remains26m² on the fixture. The prior packet overlap report is corrected separately: one test literal was already known, so1.3 nonoverlap is20/23. An additional8-case packet was sealed before patch freeze and passed7/8, with one safe refusal. All prior packets are seen for current replays. Read eval/repair-v1.3.1/README.md. Original audit evidence/geometry remain immutable. Current34 analytic and8 DOM checks pass; focused Chief IAB review follows deployment.

@@ -1,0 +1,30 @@
+{
+  "seenPublished": [],
+  "fresh": [
+    {
+      "id": "patch-wording-04",
+      "question": "Give the total area indoors.",
+      "expected": {
+        "status": "answer",
+        "unit": "m²",
+        "value": 50,
+        "rooms": [
+          "1.01",
+          "1.02",
+          "1.03"
+        ]
+      },
+      "observed": {
+        "status": "review",
+        "value": null,
+        "unit": null,
+        "intent": "area",
+        "rooms": [],
+        "entityIds": [],
+        "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+        "exportable": false
+      },
+      "pass": false
+    }
+  ]
+}

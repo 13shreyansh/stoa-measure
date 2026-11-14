@@ -1,0 +1,94 @@
+[
+  {
+    "id": "patch-wording-01",
+    "question": "Find the area for room 1.02.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "patch-wording-02",
+    "question": "How many rooms have the label \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.04"
+      ]
+    }
+  },
+  {
+    "id": "patch-wording-03",
+    "question": "Report apartment A indoor area.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "patch-wording-04",
+    "question": "Give the total area indoors.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "patch-wording-05",
+    "question": "Give the whole-floor indoor total for room 1.01.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "patch-wording-06",
+    "question": "What is the whole-floor indoor area for the \"Bad\" category in apartment A?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "patch-wording-07",
+    "question": "Find room 1.02 area in square yards.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "patch-wording-08",
+    "question": "Calculate the difference between the areas of room 1.03 and room 1.01.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  }
+]

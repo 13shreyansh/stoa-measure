@@ -1,0 +1,68 @@
+{
+  "comparisons": 1341,
+  "unchanged": 1338,
+  "changed": 3,
+  "fields": "status/unit/value/room IDs/entity IDs",
+  "changes": [
+    {
+      "recordIndex": 7100,
+      "family": "rephrase_numbered_room_area",
+      "question": "Give me the area of room 2.42 in m².",
+      "expected": 16.12,
+      "expectedUnit": "m²",
+      "status": "answer",
+      "value": 16.124990108074005,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "2.42"
+      ],
+      "entityIds": [
+        "D4"
+      ],
+      "reason": null,
+      "exportable": true,
+      "correct": true
+    },
+    {
+      "recordIndex": 7100,
+      "family": "rephrase_numbered_room_area",
+      "question": "Room 2.42 net floor area in m²?",
+      "expected": 16.12,
+      "expectedUnit": "m²",
+      "status": "answer",
+      "value": 16.124990108074005,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "2.42"
+      ],
+      "entityIds": [
+        "D4"
+      ],
+      "reason": null,
+      "exportable": true,
+      "correct": true
+    },
+    {
+      "recordIndex": 7100,
+      "family": "rephrase_numbered_room_area",
+      "question": "How many square metres is room 2.42?",
+      "expected": 16.12,
+      "expectedUnit": "m²",
+      "status": "answer",
+      "value": 16.124990108074005,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "2.42"
+      ],
+      "entityIds": [
+        "D4"
+      ],
+      "reason": null,
+      "exportable": true,
+      "correct": true
+    }
+  ]
+}

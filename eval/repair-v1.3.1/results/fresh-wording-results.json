@@ -1,0 +1,198 @@
+[
+  {
+    "id": "patch-wording-01",
+    "question": "Find the area for room 1.02.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 6,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.02"
+      ],
+      "entityIds": [
+        "5"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "patch-wording-02",
+    "question": "How many rooms have the label \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.04"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 1,
+      "unit": "count",
+      "intent": "count",
+      "rooms": [
+        "1.04"
+      ],
+      "entityIds": [
+        "d"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "patch-wording-03",
+    "question": "Report apartment A indoor area.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "answer",
+      "value": 50,
+      "unit": "m²",
+      "intent": "area",
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ],
+      "entityIds": [
+        "1",
+        "5",
+        "9"
+      ],
+      "reason": null,
+      "exportable": true
+    },
+    "pass": true
+  },
+  {
+    "id": "patch-wording-04",
+    "question": "Give the total area indoors.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "No single supported room target was identified. Use a room number or one quoted label.",
+      "exportable": false
+    },
+    "pass": false
+  },
+  {
+    "id": "patch-wording-05",
+    "question": "Give the whole-floor indoor total for room 1.01.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Whole-floor indoor area and a room/apartment subset are different scopes. Ask for the subset area or indoor total separately.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "patch-wording-06",
+    "question": "What is the whole-floor indoor area for the \"Bad\" category in apartment A?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": "area",
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Room labels and apartments are different targets. Ask for one.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "patch-wording-07",
+    "question": "Find room 1.02 area in square yards.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Requested units are unsupported. This engine returns m² for area or count for objects.",
+      "exportable": false
+    },
+    "pass": true
+  },
+  {
+    "id": "patch-wording-08",
+    "question": "Calculate the difference between the areas of room 1.03 and room 1.01.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    },
+    "observed": {
+      "status": "review",
+      "value": null,
+      "unit": null,
+      "intent": null,
+      "rooms": [],
+      "entityIds": [],
+      "reason": "Ask for an explicit area in m² or a room count. Unrecognised wording needs review.",
+      "exportable": false
+    },
+    "pass": true
+  }
+]

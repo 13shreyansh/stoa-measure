@@ -1,0 +1,10 @@
+{
+  "scope": "Post-review correction; prior1.3 result files remain unchanged. Scan direct literal call arguments in analytic/UI test sources, plus saved question rows. Normalize quotes/case/whitespace.",
+  "basePacketCases": 24,
+  "basePacketPreviouslyKnown": [
+    "final-wording-01"
+  ],
+  "baseNonoverlapCases": 23,
+  "baseNonoverlapPassed": 20,
+  "patchPacketPreviouslyKnown": []
+}

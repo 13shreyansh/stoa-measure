@@ -16,7 +16,7 @@ Click room 5.03 and show 10.15 m². Expand coordinates. Download the JSON calcul
 
 ## 0:45–1:05
 
-"The cheap path is deterministic. No model calls. On 16 held-out drawings, it answered 277 of 586 supplied questions correctly and requested review on the rest. All 277 answered cases passed that test. These are paired DXFs, not a claim about arbitrary scans."
+"The cheap path is deterministic. No model calls. The original engine1.0 answered277 of586 questions on16 held-out drawings correctly and requested review on the rest. All277 answered cases passed that original test. Current1.3.1 repair replays are seen regressions, not new held-out evidence. These are paired DXFs, not a claim about arbitrary scans."
 
 Scroll briefly to the evaluation, keeping both coverage and answered-correct figures in shot.
 

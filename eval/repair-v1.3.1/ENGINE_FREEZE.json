@@ -1,0 +1,17 @@
+{
+  "version": "1.3.1",
+  "frozenAtHelsinki": "2026-11-14 18:43 Helsinki",
+  "files": {
+    "src/engine.js": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+    "src/engine-v1.3.js": "3c52977140c509285275a52095c25ec8cfa115d139b5d6f19e92dd00e96846ef",
+    "src/engine-v1.3.1.js": "5a87fc8c55ad8dc82de9de7dc6f6e039f8864f15b5c5947b6a73d3a5037d594f",
+    "src/main.js": "43c16e6b55effa21604a51ba348919667a57743fd9f48b67abd3dd7948ded7a0",
+    "eval/repair-v1.3.1/SPEC.md": "7d84f88d4ad320992b6d5c2d7614ed6817a4360321467344e46c002162d5ca5e",
+    "eval/repair/fixture.mjs": "bf5abf865ea4062dd72e39ac4f8d1bf3b6f784e07d942d07fb2f4accb38213ba",
+    "eval/repair-v1.3.1/intent-regression.mjs": "7f8d30c44ffe7e653edb009e7354d22c5e294bb2bdb2bc4816519fc008695d1a",
+    "eval/repair-v1.3.1/ui-regression.mjs": "628aa0cf57c7641432fab1d949305e856755e9bcd822881d67af7e7786ad86c5"
+  },
+  "sealedWordingPacketSha256": "df77f6a4904cae37e248a751c4237172c2515b7d33704ece7ea9598c099c1620",
+  "provenance": "Same isolated /root/final_repair_wording author context originally fork_turns=none. No implementation or builder conversation; additional8 cases authored after its previous24. Returned count/hash only. Builder has not read8-case content before patch freeze.",
+  "scope": "All earlier packets are seen regressions. This8-case packet is revealed once, with prompt overlaps reported. No real-drawing holdout, human labels or different-family claim."
+}
