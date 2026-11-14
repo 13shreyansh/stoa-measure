@@ -71,3 +71,11 @@ No reviewer should use these numbers to justify an unattended purchase. The spon
 ## Delivery verification
 
 Production build passed. UI interaction checks and live HTTP asset checks are recorded separately in docs/VERIFICATION.md. The Chief completed the separate IAB desktop/mobile/PDF workflow check on 2026-11-14 at 17:36 Helsinki. All requested workflows passed, with no blocking defect. This UI check is not a benchmark-wide overlay correctness measurement, independent area ground truth or evidence on unreleased drawings. The frozen engine and evaluation results are unchanged.
+
+## C-16 audit supplement
+
+The [frozen C-16 audit](c16/README.md) verifies whole-site/building/drawing grouping, all 65 PDF/DXF/PNG triplets and 1,179 translated pairs. It also reports every source separately: only Swiss Dwellings was scored, so source-disjoint generalization is not established.
+
+On dev only, all 10,632 filename/question-order/entity-order comparisons were unchanged. Of 1,341 authored question rephrases, 311 changed outcomes, including 29 area requests returned as counts. [All failures are published](c16/failures.json). These are invariance tests, not independent accuracy labels. The engine and original held-out evaluation are unchanged; no retuning followed the audit.
+
+Model inference/API charges per correct answer in the original QA run are $0 / 277 = $0, with 586 requests and 309 review requests. Hardware, hosting, network, energy, storage, coding/reviewer-model usage and human costs were not measured. Total end-to-end cost per correct answer and cost per independently visually grounded correct answer remain unknown.

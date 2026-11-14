@@ -1,0 +1,18 @@
+{
+  "audit": "C-16",
+  "frozenAt": "2026-11-14T16:06:27.040Z",
+  "inputQuestionSha256": "03b857a7ff91c63c81288081b526548ff4cfdf116e84f335f298906613168a70",
+  "files": {
+    "eval/c16/SPEC.md": "acba889301bbbf569f22ea5b80a943f2166d0f01da89f4d9546b807766f9212b",
+    "eval/c16/audit.mjs": "844b1c665f3e6fb43fb75f3bbbb31987ecc0f97b0ac414d481b6bc91ad1e6ea9",
+    "src/engine.js": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+    "eval/run.mjs": "c2d566b984aac106a3ce524824bc23399c933b479126d348de380e47158858fe",
+    "eval/split-manifest.json": "c48ffe45243e3f833aff81f77a49bb2a17e347d8133aea216518a76fafc9ebe1",
+    "eval/results/dev-summary.json": "c9c3ed10f7425745d4c6a3d9a094fc954eb9cb666803483a6556cefd9bd266ae",
+    "eval/results/heldout-summary.json": "27624762143c123a96a6b4a743dcd1104fccc7358b5ebc355b31f29f858829de",
+    "eval/c16/results.json": "62f647ec8348877bcc3367643f334156fe9f8f34465c7447cae51980034dfebd",
+    "eval/c16/failures.json": "5111950b2926d47d62faa7617a01911664b9e2b912015422d3e204f9d273af70",
+    "eval/c16/group-manifest.json": "7b33d7e638c86d136bc5145f4e422de3cc46530ec878780ea755d36cc7ae7ad2"
+  },
+  "note": "First registered audit execution. Original engine and held-out evaluation not changed. This hash manifest is integrity metadata, not an external timestamp or certification."
+}

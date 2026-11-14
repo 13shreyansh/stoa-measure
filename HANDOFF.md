@@ -34,3 +34,9 @@ Drawings are excluded from Git. `public/samples/example.dxf` is a CC BY 4.0 draw
 Use node scripts/prepare-sample.mjs with STOA_DATA pointing to the extracted preview. Then npm ci, npm run build and Vercel CLI deploy. The main runtime does not read answer keys or evaluation reference answers.
 
 Do not edit other challenge projects or board rows. Append progress to bridge/from-codex.md. C-11/C-12 belong to the Chief; Spread belongs to its dispatcher chat.
+
+## C-16 audit supplement
+
+The engine remains frozen. Read eval/c16/README.md and every failure in failures.json before making broader language claims. Filename/row/entity-order changes were stable; 311 of 1,341 authored rephrases changed outcomes, including 29 area-to-count misroutes. Do not describe the original answered-case precision as a guarantee under rephrasing. Only one source was scored. Cost per correct answer covers model inference/API charges only; end-to-end cost was not measured.
+
+Run npm run audit:c16 to validate hashes and replay in scratch without overwriting the published audit. C-16 is distinct from the already-completed C-07 delivery. Fresh reviewer provenance and final audit freeze will be in eval/c16/REVIEW.md and FINAL_FREEZE.json when complete.

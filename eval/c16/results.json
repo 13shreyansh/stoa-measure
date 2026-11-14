@@ -1,0 +1,155 @@
+{
+  "audit": "C-16",
+  "engineSha256": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+  "datasetQuestionsSha256": "03b857a7ff91c63c81288081b526548ff4cfdf116e84f335f298906613168a70",
+  "nuisanceScope": "dev only; original held-out not replayed or tuned",
+  "grouping": {
+    "drawings": 65,
+    "sites": 65,
+    "projects": 65,
+    "overlap": {
+      "site": [],
+      "project": [],
+      "drawing": []
+    },
+    "originalManifestMatches": {
+      "dev": true,
+      "heldout": true
+    },
+    "translationPairs": {
+      "adjacentPairsChecked": 1179,
+      "allPairsTogether": true,
+      "unpairedRecords": []
+    },
+    "formatCounts": {
+      "pdf": 65,
+      "dxf": 65,
+      "png": 65
+    }
+  },
+  "sourceFamilies": {
+    "cubicasa5k": {
+      "questionRecords": 4270,
+      "uniqueQuestionPaths": 241,
+      "devScored": 0,
+      "heldoutScored": 0,
+      "status": "not_evaluated",
+      "sourceDisjointHoldout": false
+    },
+    "ifc_bench": {
+      "questionRecords": 249,
+      "uniqueQuestionPaths": 5,
+      "devScored": 0,
+      "heldoutScored": 0,
+      "status": "not_evaluated",
+      "sourceDisjointHoldout": false
+    },
+    "ifc_models": {
+      "questionRecords": 1049,
+      "uniqueQuestionPaths": 6,
+      "devScored": 0,
+      "heldoutScored": 0,
+      "status": "not_evaluated",
+      "sourceDisjointHoldout": false
+    },
+    "opening_design": {
+      "questionRecords": 64,
+      "uniqueQuestionPaths": 3,
+      "devScored": 0,
+      "heldoutScored": 0,
+      "status": "not_evaluated",
+      "sourceDisjointHoldout": false
+    },
+    "swiss_dwellings": {
+      "questionRecords": 2358,
+      "uniqueQuestionPaths": 65,
+      "devScored": 1772,
+      "heldoutScored": 586,
+      "status": "scored_semantic_paired_DXF",
+      "sourceDisjointHoldout": false
+    }
+  },
+  "sourceDisjointGeneralization": "not established: both scored splits use Swiss Dwellings; other sources were not question-scored",
+  "sourceProbes": [
+    {
+      "source": "opening_design",
+      "path": "data/opening_design/Screened_in_Porch/Models & CAD/BIM/Linked - CAD & Data/Site plan.dxf",
+      "parsed": false,
+      "error": "No supported room geometry. Use the calibrated tracing tab for this drawing.",
+      "note": "Parse-only rejection; not answer accuracy or source generalization"
+    }
+  ],
+  "baselineReplay": {
+    "checks": 1772,
+    "matched": 1772,
+    "mismatches": []
+  },
+  "nuisances": {
+    "filename": {
+      "checks": 5316,
+      "stable": 5316,
+      "changed": 0,
+      "baselineAnswered": 2199,
+      "baselineRefused": 3117,
+      "refusalChanges": 0,
+      "answerChanges": 0
+    },
+    "question_row_order": {
+      "checks": 1772,
+      "stable": 1772,
+      "changed": 0,
+      "baselineAnswered": 733,
+      "baselineRefused": 1039,
+      "refusalChanges": 0,
+      "answerChanges": 0
+    },
+    "DXF_entity_order": {
+      "checks": 3544,
+      "stable": 3544,
+      "changed": 0,
+      "baselineAnswered": 1466,
+      "baselineRefused": 2078,
+      "refusalChanges": 0,
+      "answerChanges": 0
+    },
+    "rephrase_label_count": {
+      "checks": 906,
+      "stable": 726,
+      "changed": 180,
+      "baselineAnswered": 540,
+      "baselineRefused": 366,
+      "refusalChanges": 180,
+      "answerChanges": 0
+    },
+    "rephrase_numbered_room_area": {
+      "checks": 288,
+      "stable": 186,
+      "changed": 102,
+      "baselineAnswered": 270,
+      "baselineRefused": 18,
+      "refusalChanges": 102,
+      "answerChanges": 0
+    },
+    "rephrase_label_area": {
+      "checks": 147,
+      "stable": 118,
+      "changed": 29,
+      "baselineAnswered": 87,
+      "baselineRefused": 60,
+      "refusalChanges": 0,
+      "answerChanges": 29
+    }
+  },
+  "failures": 311,
+  "cost": {
+    "scope": "Frozen Swiss paired-DXF held-out QA run; not end-to-end or independently overlay-graded",
+    "requests": 586,
+    "correctAnswers": 277,
+    "reviewRequests": 309,
+    "modelCalls": 0,
+    "inferenceApiCostUsd": 0,
+    "inferenceApiCostPerCorrectUsd": 0,
+    "hardwareHostingNetworkEnergyStorageHumanCost": "not measured",
+    "totalCostPerCorrect": "unknown"
+  }
+}

@@ -8,7 +8,8 @@
     "build": "vite build",
     "eval": "node eval/run.mjs",
     "test:ui": "node eval/ui.mjs",
-    "test:safety": "node eval/safety.mjs"
+    "test:safety": "node eval/safety.mjs",
+    "audit:c16": "node eval/c16/verify.mjs"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.2.0",

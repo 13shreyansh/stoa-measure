@@ -1,5 +1,16 @@
 # Measure
 
+## Judge quick path
+
+| Criterion | Actual proof | Scope and limit |
+|---|---|---|
+| Accuracy, 25% | [Frozen benchmark](eval/LEDGER.md#frozen-held-out-run), [numeric traces](eval/results/heldout-traces.json), [grouping/source audit](eval/c16/README.md#whole-drawing-and-source-grouping) | 277/586 correct, 277 answered, 309 review requests; 16 held-out sites in one semantic DXF source. No cross-source result. |
+| Visual reasoning, 25% | [Live room overlay](https://stoa-eta.vercel.app), [completed IAB workflow checks](docs/VERIFICATION.md#completed-iab-check), [demo 0:15–0:45](docs/DEMO.md) | Actual room overlays and exported coordinates checked in IAB; no benchmark-wide independently graded overlay score. Demo script timing is a plan, not a recorded video timestamp. |
+| Creativity, 25% | [Deterministic geometry implementation](src/engine.js), [calibrated tracing workflow](docs/VERIFICATION.md#completed-iab-check) | Inspectable computation, boundary record and human-assisted fallback. No measured novelty or benchmark-win claim. |
+| Low inference cost, 25% | [Scoped cost per correct answer](eval/c16/README.md#cost-per-correct-answer-scoped), [raw cost fields](eval/c16/results.json) | $0 model inference/API charges / 277 correct benchmark answers; hardware, hosting and human costs unmeasured. |
+
+**Known audit failure:** 29 authored area-total rephrases returned a room count instead of m². [All 311 changed rephrases and source limitations are published](eval/c16/README.md). The engine is frozen; neither this audit nor the original benchmark establishes general language robustness.
+
 [Open the live workbench](https://stoa-eta.vercel.app) · [Evaluation ledger](eval/LEDGER.md) · [2-minute demo](docs/DEMO.md)
 
 A site engineer asks for a room area. Measure computes the polygon area from an ASCII DXF, highlights the exact boundary, shows the drawing units and printed-area cross-check, and exports the calculation with coordinates and an input hash. No LLM is involved.
@@ -42,6 +53,8 @@ STOA_DATA=/absolute/path/junction-dataset-preview node eval/run.mjs dev
 STOA_DATA=/absolute/path/junction-dataset-preview node eval/run.mjs heldout
 STOA_DATA=/absolute/path/junction-dataset-preview node eval/safety.mjs
 npm run test:ui
+# Reproduce the C-16 frozen audit in scratch space, retaining known failures.
+STOA_DATA=/absolute/path/junction-dataset-preview npm run audit:c16
 ```
 
 The evaluator groups every format and language of a drawing by site before splitting. `eval/results` contains numeric traces and summaries; local `work/` contains the licensed question text for inspection. The runtime has no access to reference answers. A split manifest and engine SHA-256 make runs inspectable. Do not tune on the held-out set.
