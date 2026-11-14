@@ -1,0 +1,270 @@
+[
+  {
+    "id": "final-wording-01",
+    "question": "What is the area of room 1.01?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 20,
+      "rooms": [
+        "1.01"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-02",
+    "question": "Give me room 1.02 area.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-03",
+    "question": "How large is room 1.03?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-04",
+    "question": "Show the area for room 1.04.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.04"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-05",
+    "question": "What is the combined area of rooms labeled \"Bad\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 26,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-06",
+    "question": "How many rooms are labeled \"Bad\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 2,
+      "rooms": [
+        "1.01",
+        "1.02"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-07",
+    "question": "Give the area of the \"Wohnen\" room group.",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 24,
+      "rooms": [
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-08",
+    "question": "Count the rooms labeled \"Wohnen\".",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": [
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-09",
+    "question": "What is the indoor area of apartment A?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-10",
+    "question": "How many apartments are there?",
+    "expected": {
+      "status": "answer",
+      "unit": "count",
+      "value": 1,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-11",
+    "question": "What is the total indoor area?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 50,
+      "rooms": [
+        "1.01",
+        "1.02",
+        "1.03"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-12",
+    "question": "What area belongs to the rooms labeled \"Balkon\"?",
+    "expected": {
+      "status": "answer",
+      "unit": "m²",
+      "value": 6,
+      "rooms": [
+        "1.04"
+      ]
+    }
+  },
+  {
+    "id": "final-wording-13",
+    "question": "Add the area of room 1.01 to the area of room 1.03.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-14",
+    "question": "Give twice the area of room 1.02.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-15",
+    "question": "What is the area of room 1.03 in square feet?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-16",
+    "question": "Report the total indoor area in hectares.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-17",
+    "question": "How many doors does apartment A have?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-18",
+    "question": "Count the windows in rooms labeled \"Bad\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-19",
+    "question": "Show the area of room 1.01 and the count of rooms labeled \"Wohnen\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-20",
+    "question": "Return both the area and the room count for \"Bad\".",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-21",
+    "question": "What is the carpetable area of apartment A?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-22",
+    "question": "Give the net rentable area of room 1.03.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-23",
+    "question": "What is the total indoor area excluding room 1.02?",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  },
+  {
+    "id": "final-wording-24",
+    "question": "Count the \"Bad\" rooms, but return their area instead.",
+    "expected": {
+      "status": "review",
+      "unit": null,
+      "value": null,
+      "rooms": []
+    }
+  }
+]

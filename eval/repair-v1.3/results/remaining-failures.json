@@ -1,0 +1,75 @@
+{
+  "seenPublished": [],
+  "fresh": [
+    {
+      "id": "final-wording-03",
+      "question": "How large is room 1.03?",
+      "expected": {
+        "status": "answer",
+        "unit": "m²",
+        "value": 24,
+        "rooms": [
+          "1.03"
+        ]
+      },
+      "observed": {
+        "status": "review",
+        "value": null,
+        "unit": null,
+        "intent": null,
+        "rooms": [],
+        "entityIds": [],
+        "reason": "Ask for an explicit area in m² or a room count. Unrecognised wording needs review.",
+        "exportable": false
+      },
+      "pass": false
+    },
+    {
+      "id": "final-wording-05",
+      "question": "What is the combined area of rooms labeled \"Bad\"?",
+      "expected": {
+        "status": "answer",
+        "unit": "m²",
+        "value": 26,
+        "rooms": [
+          "1.01",
+          "1.02"
+        ]
+      },
+      "observed": {
+        "status": "review",
+        "value": null,
+        "unit": null,
+        "intent": "area",
+        "rooms": [],
+        "entityIds": [],
+        "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+        "exportable": false
+      },
+      "pass": false
+    },
+    {
+      "id": "final-wording-07",
+      "question": "Give the area of the \"Wohnen\" room group.",
+      "expected": {
+        "status": "answer",
+        "unit": "m²",
+        "value": 24,
+        "rooms": [
+          "1.03"
+        ]
+      },
+      "observed": {
+        "status": "review",
+        "value": null,
+        "unit": null,
+        "intent": "area",
+        "rooms": [],
+        "entityIds": [],
+        "reason": "Unrecognised request wording or modifier needs review. Use one room number or quoted label with area in m² or count.",
+        "exportable": false
+      },
+      "pass": false
+    }
+  ]
+}

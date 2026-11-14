@@ -1,6 +1,6 @@
 # Measure
 
-Current engine **1.1.0** repairs the area/count routing and stale-export defect. [Repair evidence and remaining failures](eval/repair/README.md): all 311 published failure cases now match their numeric references, as **seen regressions**; a fresh model-authored analytic packet passed 28/30, with two refusals. No new unseen drawing benchmark is claimed.
+Current engine **1.3.0** repairs area/count routing, unhandled modifiers and stale exports. [Repair evidence and remaining failures](eval/repair-v1.3/README.md): all 311 published C-16 failures now match numeric references as **seen regressions**. A final sealed model-authored packet passed21/24 behavior checks, with three extra refusals and no wrong answers in that packet. The stricter parser loses coverage. No new unseen drawing benchmark is claimed.
 
 ## Judge quick path
 
@@ -11,7 +11,7 @@ Current engine **1.1.0** repairs the area/count routing and stale-export defect.
 | Creativity, 25% | [Deterministic geometry implementation](src/engine.js), [calibrated tracing workflow](docs/VERIFICATION.md#completed-iab-check) | Inspectable computation, boundary record and human-assisted fallback. No measured novelty or benchmark-win claim. |
 | Low inference cost, 25% | [Scoped cost per correct answer](eval/c16/README.md#cost-per-correct-answer-scoped), [raw cost fields](eval/c16/results.json) | $0 model inference/API charges / 277 correct benchmark answers; hardware, hosting and human costs unmeasured. |
 
-**Historical engine1.0.0 audit failure:** 29 authored area-total rephrases returned a room count instead of m². Engine1.1.0 repairs these 29 seen cases; the original failures remain immutable. [All 311 changed rephrases and source limitations are published](eval/c16/README.md). The historical engine is frozen at audit-c16-v1; neither that audit nor the repair establishes general language robustness.
+**Historical engine1.0.0 audit failure:** 29 authored area-total rephrases returned a room count instead of m². Engine1.3.0 repairs these 29 seen cases; the original failures remain immutable. [All 311 changed rephrases and source limitations are published](eval/c16/README.md). The historical engine is frozen at audit-c16-v1; neither that audit nor the repair establishes general language robustness.
 
 [Open the live workbench](https://stoa-eta.vercel.app) · [Evaluation ledger](eval/LEDGER.md) · [2-minute demo](docs/DEMO.md)
 

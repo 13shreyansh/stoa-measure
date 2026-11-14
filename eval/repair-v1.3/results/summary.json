@@ -1,0 +1,75 @@
+{
+  "version": "1.3.0",
+  "seenFirstPacket": {
+    "cases": 30,
+    "passed": 18,
+    "failed": 12,
+    "note": "First1.1 wording packet is now seen regression data"
+  },
+  "seenRephraseInvariance": {
+    "comparisons": 1341,
+    "unchanged": 1338,
+    "changed": 3,
+    "fields": "status, unit, value, room IDs and entity IDs"
+  },
+  "geometryModuleSha256": "c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8",
+  "engineSha256": "3c52977140c509285275a52095c25ec8cfa115d139b5d6f19e92dd00e96846ef",
+  "seenPublishedFailures": {
+    "cases": 311,
+    "correct": 311,
+    "answered": 311,
+    "refused": 0,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "seenPublishedWrongUnitSlice": {
+    "cases": 29,
+    "correct": 29,
+    "answered": 29,
+    "refused": 0,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "seenAllAuthoredRephrases": {
+    "cases": 1341,
+    "correct": 960,
+    "answered": 960,
+    "refused": 381,
+    "incorrectAnswered": 0,
+    "wrongUnitAnswered": 0
+  },
+  "historicalRegression": {
+    "dev": {
+      "cases": 1772,
+      "correct": 585,
+      "answered": 585,
+      "refused": 1187,
+      "incorrectAnswered": 0,
+      "wrongUnitAnswered": 0,
+      "lostPreviouslyCorrect": 184,
+      "note": "Previously exposed historical split; regression only, not new unseen data"
+    },
+    "heldout": {
+      "cases": 586,
+      "correct": 233,
+      "answered": 233,
+      "refused": 353,
+      "incorrectAnswered": 0,
+      "wrongUnitAnswered": 0,
+      "lostPreviouslyCorrect": 50,
+      "note": "Previously exposed historical split; regression only, not new unseen data"
+    }
+  },
+  "freshWording": {
+    "exactPriorPromptOverlaps": [],
+    "nonoverlapCases": 24,
+    "nonoverlapPassed": 21,
+    "nonoverlapFailed": 3,
+    "cases": 24,
+    "passed": 21,
+    "failed": 3,
+    "incorrectAnswers": 0,
+    "packetSha256": "1de7d6a15a3f9be28ca553a648018c54188db3c9099bf2c40b8e7604c5d747bb",
+    "scope": "Fresh model-authored analytic wording probes sealed before engine freeze, not human labels or an independent drawing/source benchmark"
+  }
+}

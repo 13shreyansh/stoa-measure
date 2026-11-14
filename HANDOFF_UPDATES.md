@@ -17,3 +17,7 @@ The delivered engine already requests review for door counts. Keep that behavior
 ## Engine 1.1.0 correctness repair
 
 A separate authorized repair addresses area/count intent, complete-word exclusions and stale/unit-mismatched exports. The new engine is src/engine-v1.1.js; original geometry and audit evidence remain unchanged. Read eval/repair/README.md before describing its results. Seen regression successes and freshly authored model wording probes are separate; the old held-out set is not unseen for this replay. Fresh probes passed28/30, with two refusals. Historical replay also lost31 previously correct answers to conservative refusal. Do not erase these limitations or claim complete natural-language support.
+
+## Final engine1.3.0 candidate
+
+Version1.1 was rejected for additional P1 request-modifier errors. Version1.2 was rejected for coverage/punctuation regressions. Their source, packets and results are preserved under separate rejected tags. Current source uses engine-v1.3.js with whole-request checks and stale-mode export guarding. Read eval/repair-v1.3/README.md:311/311 seen failures repaired,29 analytic/8 DOM checks, final sealed packet21/24 with3 safe refusals, historical replay coverage losses disclosed. No old held-out replay is called unseen. Geometry and original C-16 artifacts remain unchanged. Focused Chief IAB verification follows deployment.
