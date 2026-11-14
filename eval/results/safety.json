@@ -1,0 +1,90 @@
+{
+  "suite": "Analytic fixtures and dev safety cases; not human validation",
+  "passed": 21,
+  "cases": [
+    {
+      "name": "L-shaped analytic area is 20 m², not bounding-box 24",
+      "pass": true
+    },
+    {
+      "name": "Clockwise traversal gives same area",
+      "pass": true
+    },
+    {
+      "name": "100 pixels per metre yields 20 m² and 20 m perimeter",
+      "pass": true
+    },
+    {
+      "name": "Translation does not change measured area",
+      "pass": true
+    },
+    {
+      "name": "Doubling scale divides area by four",
+      "pass": true
+    },
+    {
+      "name": "Unknown scale is rejected",
+      "pass": true
+    },
+    {
+      "name": "Negative scale is rejected",
+      "pass": true
+    },
+    {
+      "name": "Infinite scale is rejected",
+      "pass": true
+    },
+    {
+      "name": "Self-crossing boundary is rejected",
+      "pass": true
+    },
+    {
+      "name": "Too few vertices is rejected",
+      "pass": true
+    },
+    {
+      "name": "Collinear boundary is rejected",
+      "pass": true
+    },
+    {
+      "name": "Non-numeric boundary is rejected",
+      "pass": true
+    },
+    {
+      "name": "Actual dev example room 5.11 recomputes to 13.62 m²",
+      "pass": true
+    },
+    {
+      "name": "Piping query requests review",
+      "pass": true
+    },
+    {
+      "name": "Bathtub question is not a bathroom room count",
+      "pass": true
+    },
+    {
+      "name": "Double-leaf door symbols do not become an exact count",
+      "pass": true
+    },
+    {
+      "name": "Unknown room does not return a guessed area",
+      "pass": true
+    },
+    {
+      "name": "Missing label does not mean verified zero",
+      "pass": true
+    },
+    {
+      "name": "Unknown DXF units block area answers",
+      "pass": true
+    },
+    {
+      "name": "Scale disagreement blocks an area answer",
+      "pass": true
+    },
+    {
+      "name": "Unsupported exclusion requests review",
+      "pass": true
+    }
+  ]
+}

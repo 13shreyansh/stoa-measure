@@ -1,0 +1,65 @@
+{
+  "stage": "dev",
+  "version": "1.0.0",
+  "engineSha256": "bb33d3349522ca823947ebdd3baa9f65aa643bdfa31965d34555c72eeabd8a5c",
+  "datasetQuestionsSha256": "03b857a7ff91c63c81288081b526548ff4cfdf116e84f335f298906613168a70",
+  "drawingCount": 49,
+  "cases": 1772,
+  "answered": 1190,
+  "correct": 1104,
+  "baselineCorrect": 232,
+  "bboxCorrect": 803,
+  "accuracy": 0.6230248306997742,
+  "coverage": 0.6715575620767494,
+  "precision": 0.9277310924369748,
+  "byType": {
+    "count": {
+      "cases": 1208,
+      "answered": 726,
+      "correct": 665,
+      "baselineCorrect": 226,
+      "bboxCorrect": 665,
+      "accuracy": 0.5504966887417219,
+      "coverage": 0.6009933774834437,
+      "precision": 0.9159779614325069
+    },
+    "area": {
+      "cases": 564,
+      "answered": 464,
+      "correct": 439,
+      "baselineCorrect": 6,
+      "bboxCorrect": 138,
+      "accuracy": 0.7783687943262412,
+      "coverage": 0.8226950354609929,
+      "precision": 0.9461206896551724
+    }
+  },
+  "byLanguage": {
+    "English": {
+      "cases": 886,
+      "answered": 600,
+      "correct": 562,
+      "baselineCorrect": 116,
+      "bboxCorrect": 405,
+      "accuracy": 0.6343115124153499,
+      "coverage": 0.6772009029345373,
+      "precision": 0.9366666666666666
+    },
+    "translated": {
+      "cases": 886,
+      "answered": 590,
+      "correct": 542,
+      "baselineCorrect": 116,
+      "bboxCorrect": 398,
+      "accuracy": 0.6117381489841986,
+      "coverage": 0.6659142212189616,
+      "precision": 0.9186440677966101
+    }
+  },
+  "parseTotalMs": 134.1163789999999,
+  "queryMedianMs": 0.0037499999999965894,
+  "queryP95Ms": 0.016708000000022594,
+  "llmCalls": 0,
+  "inferenceCostUsd": 0,
+  "fullPreviewQuestions": 7990
+}

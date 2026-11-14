@@ -1,0 +1,58 @@
+{
+  "suite": "DOM interaction checks in happy-dom; not a real browser",
+  "passed": 13,
+  "checks": [
+    {
+      "name": "First screen names the task and upload action",
+      "pass": true
+    },
+    {
+      "name": "Real DXF loads through example action",
+      "pass": true
+    },
+    {
+      "name": "Room 5.11 answer is 13.62 m²",
+      "pass": true
+    },
+    {
+      "name": "Selected room boundary is visibly marked in SVG attributes",
+      "pass": true
+    },
+    {
+      "name": "New question recomputes to 10.15 m²",
+      "pass": true
+    },
+    {
+      "name": "Export includes actual boundary and input fingerprint",
+      "pass": true
+    },
+    {
+      "name": "Ambiguous door question abstains and disables export",
+      "pass": true
+    },
+    {
+      "name": "Practice drawing opens in trace mode",
+      "pass": true
+    },
+    {
+      "name": "Known reference sets 100 pixels/metre",
+      "pass": true
+    },
+    {
+      "name": "Calibrated L-shape measures 20 m² and 20 m boundary",
+      "pass": true
+    },
+    {
+      "name": "Trace export preserves calibration, vertices and true source hash",
+      "pass": true
+    },
+    {
+      "name": "Switching modes restores correct source identity",
+      "pass": true
+    },
+    {
+      "name": "Crossed manual boundary cannot export a stale quantity",
+      "pass": true
+    }
+  ]
+}

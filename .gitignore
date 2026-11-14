@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vercel/
+work/
+public/samples/
+*.pdf
+*.dxf
+*.dwg
+*.ifc
+*.png
+*.jpg
+*.jpeg
+.env*
+.vercel
