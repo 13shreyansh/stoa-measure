@@ -9,13 +9,23 @@ Application commit deployed: 965653f. Vercel production deployment stoa-bz65xxm8
 - Runtime engine SHA-256 still matches the frozen held-out run.
 - 21 analytic/safety checks passed.
 - 13 DOM interaction checks passed: real example loading, room selection, green SVG boundary attributes, 13.62 and 10.15 m² calculations, refusal state, JSON export, calibrated 20 m² trace, correct source identity after switching modes, and stale-result prevention after invalid tracing. These run in happy-dom, not a browser.
-- PDF.js 6.2.108 rendered the real PDF in Node using its legacy canvas adapter: one page, 1190.55 × 841.89 drawing points. Browser worker execution remains unverified in this chat.
+- PDF.js 6.2.108 rendered the real PDF in Node using its legacy canvas adapter: one page, 1190.55 × 841.89 drawing points. The Chief subsequently verified the browser PDF upload and page rendering in IAB.
 - Production build passed. npm audit reported zero vulnerabilities after updating PDF.js.
 - Mechanical design detector reported no findings. This does not replace visual inspection.
 - No drawings or credentials are tracked in Git. The deployed CC BY 4.0 example is gitignored, separately attributed and intentionally uploaded as a build asset.
 
-## Pending IAB check
+## Completed IAB check
 
-This chat's in-app browser returned unavailable. Per Shreyansh's instruction, personal browsers and external browser automation are not used as fallbacks. The Chief chat has a request in bridge/from-codex.md for desktop/mobile screenshots, real drawing interaction, calibrated tracing and PDF upload through its working IAB. No browser screenshots or end-to-end browser pass are claimed here.
+The Chief verified the live site in Codex's inbuilt browser at 2026-11-14 17:36 Helsinki. The report is in the shared bridge at stoa-iab-results.md. No personal browser was used for these checks.
+
+- Real room 5.11 computed 13.62 m²; room 5.03 computed 10.15 m². Both matched the printed value, and the selected green boundaries were visually confirmed.
+- Door counting returned a review request and disabled export.
+- The authored six-corner practice trace with a 6 m reference yielded 20.00 m² and 20.00 m boundary length.
+- Downloaded JSON was parsed and contained area 20, perimeter 20, six vertices, source SHA-256 and limitations.
+- The actual real PDF rendered page 1 of 1. Scale reset to required, prior boundary/result cleared and export disabled. Reference endpoint text remained from the practice input, but no old scale was applied or quantity invented.
+- Switching back restored DXF source identity, 21 numbered boundaries and the room 5.03 result.
+- At 390 × 844 px, the layout stacked correctly with no horizontal overflow. Labels were readable and upload keyboard focus was visible. The browser viewport was restored afterward.
+
+No blocking defect was found. Desktop, mobile and PDF screenshots are kept locally in .impeccable/review/desktop.jpg, mobile.jpg and pdf.jpg. They are not committed because they contain the separately licensed drawing. C-07 build and delivery verification is complete. These workflow observations do not add human area labels, a benchmark overlay correctness score, calibrated confidence or results on unreleased drawings.
 
 Recording the public two-minute video and final competition submission remain outside this build's completed actions. The demo and peer-review scripts are ready in docs/DEMO.md and docs/PITCH.md.

@@ -1,6 +1,6 @@
 # Stoa status
 
-Updated 2026-11-14 17:30 Helsinki. Owner Codex, chat 01a1daa1-c07f-7eb2-afd5-6127a3fbc796.
+Updated 2026-11-14 17:37 Helsinki. Owner Codex, chat 01a1daa1-c07f-7eb2-afd5-6127a3fbc796.
 
 Build delivered: https://stoa-eta.vercel.app . Public MIT source: https://github.com/13shreyansh/stoa-measure . Verified source/docs checkpoint 8ac69dce5dbf5cc19259bcf05a313c59369d4dc7. Application deployment commit 965653f.
 
@@ -10,4 +10,4 @@ Frozen held-out: 277/586 correct, 277 answered, 309 review requests. 128/180 are
 
 Checks: 21 analytic/safety, 13 DOM interactions, real PDF rendered through PDF.js 6.2.108 in Node, HTTP 200 and asset hash matches on production, npm audit clean, drawings and credentials excluded from Git.
 
-Pending: Chief IAB desktop/mobile/real PDF check, requested via bridge/from-codex.md. This chat lacks IAB and does not use personal browsers. No browser pass or screenshots claimed. Public video recording and competition form submission have not been done. C-07 stays open for this final browser review.
+C-07 build and delivery verification DONE. Chief IAB checks passed at 2026-11-14 17:36 Helsinki: real room areas and green overlays, ambiguous-door refusal, calibrated 20 m² / 20 m trace, downloaded JSON, actual PDF page rendering and scale reset, restored DXF identity, and 390 px mobile layout without horizontal overflow. Screenshots are local in .impeccable/review/ and are not committed. This UI verification does not expand the frozen evaluation scope. Public video recording and final competition submission remain pending.

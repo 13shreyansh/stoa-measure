@@ -15,11 +15,11 @@ Browser-only JavaScript. Semantic ASCII DXF room geometry, units, labels, determ
 Engine SHA-256 c648b3673cf96aaa06f4d3809418abae5912400f158859ce1d455a2a65706bf8. Do not silently change the engine and keep its old claim.
 Dev: 733/1772 correct, 733 answered. Held-out: 277/586 correct, 277 answered and 309 review requests. Held-out areas 128/180. Baseline 100/586, bbox ablation 195/586. Zero model calls. Semantic Swiss DXF subset only. No human ground truth, inference comparison, calibration or measured overlay correctness. See eval/LEDGER.md and numeric traces.
 
-21 analytic/safety checks and 13 DOM interaction checks passed. DOM checks are not browser verification. Production build passed. Browser visual and mobile verification requested from the Chief IAB chat in bridge/from-codex.md. IAB in this chat returned unavailable.
+21 analytic/safety checks and 13 DOM interaction checks passed. Production build passed. Chief completed the separate real-browser check in IAB at 2026-11-14 17:36 Helsinki. Desktop, 390 px mobile, real PDF upload, room overlays, refusal, calibration and JSON export all passed. C-07 build/delivery verification is DONE. See docs/VERIFICATION.md and bridge/stoa-iab-results.md. This does not establish benchmark-wide overlay accuracy or independent geometry ground truth.
 
 ## Required follow-through
 
-Source pushed and final application deployed at commit 965653f. Live HTTP assets and PDF worker hashes verified, PDF.js updated, audit clean. See docs/VERIFICATION.md. Incorporate Chief IAB findings when bridge/stoa-iab-results.md appears. Video recording remains Shreyansh's task; scripts are in docs/DEMO.md and docs/PITCH.md. Do not submit any competition form without explicit approval.
+Source pushed and final application deployed at commit 965653f. Live HTTP assets and PDF worker hashes verified, PDF.js updated, audit clean. See docs/VERIFICATION.md. Chief IAB findings are incorporated; no blocking defect was found. Screenshot captures stay local in .impeccable/review/ because they contain the licensed drawing. Video recording remains Shreyansh's task; scripts are in docs/DEMO.md and docs/PITCH.md. Do not submit any competition form without explicit approval.
 
 ## Browser and account rules
 

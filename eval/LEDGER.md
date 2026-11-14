@@ -70,4 +70,4 @@ No reviewer should use these numbers to justify an unattended purchase. The spon
 
 ## Delivery verification
 
-Production build passed. UI interaction checks and live HTTP asset checks are recorded separately in docs/VERIFICATION.md. Browser visual inspection is pending because IAB is unavailable in this chat. A request is handed to the Chief chat, whose IAB is available.
+Production build passed. UI interaction checks and live HTTP asset checks are recorded separately in docs/VERIFICATION.md. The Chief completed the separate IAB desktop/mobile/PDF workflow check on 2026-11-14 at 17:36 Helsinki. All requested workflows passed, with no blocking defect. This UI check is not a benchmark-wide overlay correctness measurement, independent area ground truth or evidence on unreleased drawings. The frozen engine and evaluation results are unchanged.
