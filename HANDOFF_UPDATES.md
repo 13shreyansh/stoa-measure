@@ -25,3 +25,9 @@ Version1.1 was rejected for additional P1 request-modifier errors. Version1.2 wa
 ## Final patch1.3.1
 
 An independent review caught1.3's indoor-total/category scope override. Patch1.3.1 explicitly refuses an indoor-total selector combined with a label/category/room/apartment subset; ordinary bathroom area remains26m² on the fixture. The prior packet overlap report is corrected separately: one test literal was already known, so1.3 nonoverlap is20/23. An additional8-case packet was sealed before patch freeze and passed7/8, with one safe refusal. All prior packets are seen for current replays. Read eval/repair-v1.3.1/README.md. Original audit evidence/geometry remain immutable. Current34 analytic and8 DOM checks pass; focused Chief IAB review follows deployment.
+
+## 14 November2026,18:43–18:45 Helsinki: hardest questions focus on scans
+
+Chief IAB relayed Eino's18:43 reply: "Mix, but the most challenging part has been scanned images (pdf or png) - the hardest questions will be focusing on those". Source https://discord.com/channels/1268184974784336004/1564622781994508369/1571203993668034652 . At18:45 he said an interactive interface is acceptable and accuracy is judged against the specific blueprint: https://discord.com/channels/1268184974784336004/1564622781994508369/1571204530547466330 . This build chat did not independently inspect those replies.
+
+Lead the README/demo with human-calibrated PDF/image tracing, with a person supplying known scale and wall boundary. Do not call it automatic raster understanding or use the DXF benchmark as scan evidence. The authored20m² practice plan proves arithmetic only. The single-page PDF limitation remains. The clarification does not establish every human-intervention scoring rule or an explicit multi-sheet/piping grading answer. No speculative parser expansion is authorized by this update.

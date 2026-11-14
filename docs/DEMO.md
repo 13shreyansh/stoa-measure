@@ -1,45 +1,25 @@
 # Two-minute demo script
 
-Record the live site at https://stoa-eta.vercel.app. Keep the final public video at or below 2:00. Do not call these results independent human validation. Show the real highlighted boundaries while speaking.
+Planned recording times, not existing video timestamps. Live site: https://stoa-eta.vercel.app. Keep the public video at or below2:00. Lead with the supported human-calibrated scan workflow. Do not imply automated raster extraction or real-scan benchmark accuracy.
 
 ## 0:00–0:15
 
-"Before an engineer orders flooring, they need to know which area a number describes. Measure keeps the room boundary and calculation together."
+"The hardest plans are scans. Measure lets an engineer supply the known scale and room boundary, then keeps the area calculation attached to that exact boundary."
 
-Show the first screen. Click **Open real drawing**.
+Open **Calibrate & trace**. Show the PDF/image upload control, then open the clearly labelled practice plan.
 
-## 0:15–0:45
+## 0:15–0:55
 
-"This is a real Junction preview drawing derived from Swiss Dwellings, with attribution below. Ask for room 5.11. We get 13.62 square metres from the room's polygon, in metre units. The green boundary shows exactly what was measured. The printed room area agrees, but it comes from the same source, so it isn't independent proof."
+"This practice shape is authored, with a known six-metre reference. Set the scale and trace each corner. The L-shape is twenty square metres, with a twenty-metre boundary. These points came from a person. We aren't claiming automatic room detection."
 
-Click room 5.03 and show 10.15 m². Expand coordinates. Download the JSON calculation, if there is time.
-
-## 0:45–1:05
-
-"The cheap path is deterministic. No model calls. The original engine1.0 answered277 of586 questions on16 held-out drawings correctly and requested review on the rest. All277 answered cases passed that original test. Current1.3.1 repair replays are seen regressions, not new held-out evidence. These are paired DXFs, not a claim about arbitrary scans."
-
-Scroll briefly to the evaluation, keeping both coverage and answered-correct figures in shot.
-
-## 1:05–1:20
-
-"Ask for a door count. The system knows that door arcs can overcount double leaves, so it asks for review. Missing room labels also block a total. I would rather show an unresolved takeoff than invent one."
-
-Ask **How many doors are drawn?** Show the refusal.
-
-## 1:20–1:50
-
-"For scans, a person supplies the missing geometry. Set a known length, then trace the room. This practice plan is an authored fixture. Its six-metre reference gives a twenty-square-metre L-shape. The calculation records the scale and every corner."
-
-Switch to **Calibrate & trace** and open the practice plan. For a fast recording, use keyboard coordinate entry:
-
-Reference endpoints, one pair per line:
+Reference endpoints:
 
 ```text
 150,100
 750,100
 ```
 
-Reference length: 6 metres. Apply scale. Boundary coordinates:
+Reference6m. Apply scale, then click the six corners or enter:
 
 ```text
 150,100
@@ -50,10 +30,26 @@ Reference length: 6 metres. Apply scale. Boundary coordinates:
 150,500
 ```
 
-Finish boundary. Show 20.00 m² and 20.00 m boundary length. If typing this takes too long, pre-stage the tracing view and cut to it in the recording. Do not imply automatic segmentation.
+Finish boundary. Show20.00m²/20.00m and download the calculation. Enter coordinates before recording if needed, but show the human-assisted nature openly.
 
-## 1:50–2:00
+## 0:55–1:15
 
-"The next step is broader drawing extraction. The useful part already works: a quantity tied to the geometry, explicit limits, and a calculation another person can inspect."
+"On your PDF or image, you identify the reference and inside wall faces. The file stays in the browser. Scale uncertainty and a distorted photograph still need a person."
 
-End on the real DXF room proof or the exported boundary.
+Optionally show a real PDF/image upload with scale unset. Do not invent a quantity or treat the practice result as a real-scan accuracy test. PDF support currently renders page1 only.
+
+## 1:15–1:40
+
+"Clean semantic DXF is a separate automatic path. Room5.11 measures13.62 square metres from its polygon, with a green boundary and metre units."
+
+Open the real drawing. Ask `How many square metres is room 5.11?` Show the overlay and export. The historical engine1.0 benchmark was277/586 on paired DXFs. Current repair replays are seen regressions, not new held-out or raster results.
+
+## 1:40–1:55
+
+"The repaired router distinguishes area from counts and refuses unsupported arithmetic or conflicting scopes. Editing the question also invalidates the old export."
+
+Show one refusal or stale-export state. Export records engine1.3.1, geometry1.0.0, the exact question, source hash and boundary.
+
+## 1:55–2:00
+
+"A quantity is easier to check when you can see its boundary and reproduce its calculation."

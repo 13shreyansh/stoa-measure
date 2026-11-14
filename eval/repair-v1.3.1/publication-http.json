@@ -1,0 +1,19 @@
+{
+  "applicationCommit": "61ba07f",
+  "deployment": "https://stoa-c3ocb7rbi-13shreyanshs-projects.vercel.app",
+  "alias": "https://stoa-eta.vercel.app",
+  "assets": [
+    {
+      "url": "https://stoa-eta.vercel.app/assets/index-DX9yosVL.js",
+      "status": 200,
+      "sha256": "1baf40f52beee53be4fa278d7c82f5cd3178ae55cc5e78468a5470f8ed810785",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://stoa-eta.vercel.app/assets/index-BG3rapj-.css",
+      "status": 200,
+      "sha256": "de6399da265be810635dfb5c8099f3cacb05ebe653f44da7d3a7dbbfb3d0754c",
+      "matchesLocalBuild": true
+    }
+  ]
+}

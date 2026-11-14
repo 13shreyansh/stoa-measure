@@ -1,6 +1,8 @@
 # Stoa status
 
-Updated 2026-11-14 18:12 Helsinki. Owner Codex, chat 01a1daa1-c07f-7eb2-afd5-6127a3fbc796.
+Current runtime: engine1.3.1, geometry1.0.0, application commit61ba07f, deployed at https://stoa-eta.vercel.app. Original C-07 delivery and C-16 audit remain DONE. The separate correctness repair has passed source/model/DOM/build checks and awaits focused Chief IAB verification. Original frozen benchmark paragraphs below describe engine1.0 only; current replays are seen regressions. Lead with human-calibrated scans, not a raster-automation claim.
+
+Updated 2026-11-14 18:50 Helsinki. Owner Codex, chat 01a1daa1-c07f-7eb2-afd5-6127a3fbc796.
 
 Build delivered: https://stoa-eta.vercel.app . Public MIT source: https://github.com/13shreyansh/stoa-measure . Verified source/docs checkpoint 8ac69dce5dbf5cc19259bcf05a313c59369d4dc7. Application deployment commit 965653f.
 
