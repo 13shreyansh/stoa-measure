@@ -1,0 +1,26 @@
+[
+  {
+    "localDownloadName": "measure-proof (1).json",
+    "engineVersion": "1.3.1",
+    "geometryVersion": "1.0.0",
+    "question": "What is the area of room 5.11?",
+    "inputSha256": "4070c5f19eb921bc08e2f5a23e957086f76abcca03fafbb8b62ca30c8a60b58d",
+    "value": 13.617073235712025,
+    "unit": "m²",
+    "intent": "area",
+    "source": "Swiss Dwellings derived drawing; CC BY4.0, see THIRD_PARTY.md",
+    "note": "Metadata extracted from actual Chief-IAB downloads. Boundary coordinates and drawings are intentionally not committed."
+  },
+  {
+    "localDownloadName": "measure-proof (2).json",
+    "engineVersion": "1.3.1",
+    "geometryVersion": "1.0.0",
+    "question": "How many apartments are shown?",
+    "inputSha256": "4070c5f19eb921bc08e2f5a23e957086f76abcca03fafbb8b62ca30c8a60b58d",
+    "value": 2,
+    "unit": "count",
+    "intent": "count",
+    "source": "Swiss Dwellings derived drawing; CC BY4.0, see THIRD_PARTY.md",
+    "note": "Metadata extracted from actual Chief-IAB downloads. Boundary coordinates and drawings are intentionally not committed."
+  }
+]

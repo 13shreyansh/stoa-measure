@@ -17,3 +17,5 @@ Other official preview sources include noncommercial, share-alike and no-derivat
 ## Dependencies
 
 DM Sans by Colophon Foundry, SIL Open Font License 1.1, distributed by @fontsource/dm-sans. PDF.js is Apache-2.0. Vite, esbuild and happy-dom retain their package licenses. See the installed package license files and package-lock.json for exact versions. Dependencies are not relicensed by this project's MIT license.
+
+The real-drawing quantities and input hash in eval/repair-v1.3.1/browser-proof-metadata.json derive from the same CC BY4.0 Swiss Dwellings example and retain that attribution. It intentionally omits drawing coordinates.

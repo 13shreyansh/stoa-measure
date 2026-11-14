@@ -41,3 +41,13 @@ Checked 2026-11-14 18:12 Helsinki. Copy-only application update deployed from co
 - Live HTML, JS, CSS and frozen evaluation JSON returned HTTP 200. Application asset hashes match the local build, and the live JS includes the new wrong-operation warning and audit link. The public pinned audit document returned HTTP 200.
 - No new C-16 browser workflow pass is claimed. The prior Chief IAB verification concerns the C-07 delivery. C-16 changes the evidence copy and documentation, not geometry or interaction behavior.
 - The final builder-assembled freeze and tag audit-c16-v1 retain the publication; they are integrity metadata, not external certification or independent historical attestation.
+
+## Reviewed repair1.3.1 delivery
+
+Runtime61ba07f deployed READY at https://stoa-c3ocb7rbi-13shreyanshs-projects.vercel.app and aliased to https://stoa-eta.vercel.app. Live assets match the local build. Geometry and historical C-16 remain unchanged.
+
+The separate repair directory eval/repair-v1.3.1 records34 analytic/8 DOM checks,311/311 seen repairs, all coverage regressions and honest packet/review provenance. The independent model reviewer found no new blocker within the patch's finite scope. Chief IAB then passed the real area/count/export/modifier/scope/stale-mode/fixture/mobile gate. Actual downloaded area/count JSON was parsed separately and input hashes matched. See eval/repair-v1.3.1/IAB_VERIFICATION.md and browser-proof-metadata.json.
+
+The original277/586 score belongs to1.0.0. Current233/586 replay is seen, not new unseen evidence, and loses50 old correct answers. Additional patch packet7/8 means three numeric answers/four intended refusals/one extra refusal, not seven correct quantities. Prior packet nonoverlap was corrected20/23. No universal intent-safety, real-scan accuracy or generalization claim follows.
+
+The README/handoff/demo now lead with human-calibrated scan tracing following Chief-reported sponsor clarifications. This is not raster automation. Video recording and final submission remain separate.
